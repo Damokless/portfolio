@@ -1,0 +1,136 @@
+[
+  {
+    "company": "Disneyland Paris",
+    "experiences": [
+      {
+        "role": "Customer Advisor",
+        "location": "Hybrid (Paris, France)",
+        "start": "2025-11",
+        "end": "Present",
+        "employment_type": "Fixed-term contract",
+        "description": "Handle customer requests in a hybrid environment, prioritizing issues and communicating clearly. Direct exposure to the customer journey helps craft coherent messaging and page flows, identify friction points, and improve post-click satisfaction (SEO/SEA).",
+        "seo_sea_focus": "Understanding user intent and journey to optimize wording, information hierarchy, and CTAs on SEO/SEA landing pages."
+      },
+      {
+        "role": "Ride Operator / Host",
+        "location": "Paris, France",
+        "start": "2024-02",
+        "end": "Present",
+        "employment_type": "Full-time",
+        "description": "Welcome and guide international visitors, manage flows and safety, and deliver immersive bilingual interactions. High-traffic setting with strong focus on user experience and clear communication—useful for understanding user intent and crafting effective journeys.",
+        "seo_sea_focus": "Sense of user journey and intent, transferable to landing page optimization and SEA messaging."
+      }
+    ]
+  },
+  {
+    "company": "Freelance",
+    "experiences": [
+      {
+        "role": "Fullstack Web Developer (Freelance)",
+        "location": "Paris, France",
+        "start": "2024-12",
+        "end": "Present",
+        "employment_type": "Freelance",
+        "description": "Design and deliver MVPs, dashboards, and custom business tools with a focus on load time and technical structure for discoverability. Build fullstack apps (REST/GraphQL APIs, React frontends, Node backends) with careful attention to Core Web Vitals, semantic markup, and structured data to boost SEO. Integrate Stripe, SQL/NoSQL databases, and CI/CD (Docker, Vercel, AWS) for fast, reliable releases, while refining UX to maximize conversion and traffic quality.",
+        "seo_sea_focus": "Core Web Vitals, semantic markup, structured data, front/back performance for technical SEO; UX and conversions for SEA."
+      }
+    ]
+  },
+  {
+    "company": "Eats-Eazy",
+    "experiences": [
+      {
+        "role": "Fullstack Web Developer",
+        "location": "Paris, France",
+        "start": "2023-01",
+        "end": "2023-10",
+        "employment_type": "Full-time",
+        "description": "Built reactive interfaces in React/Next.js and optimized Node/TypeScript/GraphQL APIs. Improved frontend performance and structure (MUI, Next routing) to speed up indexing, reduce CLS, and improve LCP, while integrating Stripe and PostgreSQL. Goal: make ordering flows reliable and page quality strong to convert acquired traffic (SEO/SEA).",
+        "seo_sea_focus": "LCP/CLS optimization, Next.js page hierarchy, prerendering and caching for technical SEO; UX consistency to improve paid conversions."
+      }
+    ]
+  },
+  {
+    "company": "Light Kitchen",
+    "experiences": [
+      {
+        "role": "Fullstack Web Developer",
+        "location": "Paris, France",
+        "start": "2021-10",
+        "end": "2022-10",
+        "employment_type": "Full-time",
+        "description": "Built ReactJS interfaces with Redux and Bootstrap, ChartJS visualizations, and Node APIs. Strengthened semantic structure, frontend performance, and caching to speed up menu/product pages, aiding crawl and response times, with a focus on conversion (menus, checkout).",
+        "seo_sea_focus": "Semantic structure, load-time reduction, UX on product and checkout pages for local SEO and SEA campaigns."
+      }
+    ]
+  },
+  {
+    "company": "Caseware France",
+    "experiences": [
+      {
+        "role": "Fullstack Web Developer",
+        "location": "Paris, France",
+        "start": "2021-02",
+        "end": "2021-09",
+        "employment_type": "Full-time",
+        "description": "Developed a financial audit web app using an internal JS framework. Delivered lightweight interfaces and scripts to boost interactivity and perceived performance, with a focus on accessibility and clear flows to increase user engagement.",
+        "seo_sea_focus": "Performance and accessibility to support indexability and quality post-click journeys."
+      }
+    ]
+  },
+  {
+    "company": "Elogie-Siemp",
+    "experiences": [
+      {
+        "role": "Systems & Network Administrator",
+        "location": "Paris, France",
+        "start": "2019-12",
+        "end": "2020-01",
+        "employment_type": "Internship",
+        "description": "Network deployment (IP, VLAN), Linux/Windows server administration, VMware virtualization, monitoring and security. Improved environment reliability—foundations for fast, available sites.",
+        "seo_sea_focus": "Backend response times and reliability, beneficial for technical SEO and post-click experience quality."
+      },
+      {
+        "role": "Systems & Network Administrator",
+        "location": "Paris, France",
+        "start": "2019-05",
+        "end": "2019-06",
+        "employment_type": "Internship",
+        "description": "Supported network deployments, configured Linux/Windows servers, VMware VMs, and monitoring. Produced technical documentation for maintainability and service continuity.",
+        "seo_sea_focus": "Stability and monitoring for consistent response times, supporting technical SEO."
+      },
+      {
+        "role": "Systems & Network Administrator",
+        "location": "Paris, France",
+        "start": "2015-05",
+        "end": "2015-06",
+        "employment_type": "Internship",
+        "description": "Level 1/2 support, Linux/Windows administration, exposure to network architectures and VMware, observation of backup and monitoring processes. Built understanding of performance and availability requirements.",
+        "seo_sea_focus": "Infrastructure stability and security as prerequisites for strong technical web performance."
+      }
+    ]
+  },
+  {
+    "company": "SNCF Réseaux",
+    "experiences": [
+      {
+        "role": "IT Support & Maintenance Technician",
+        "location": "Paris, France",
+        "start": "2017-12",
+        "end": "2018-02",
+        "employment_type": "Internship",
+        "description": "Workstation maintenance (Windows/Linux), AD account administration, VMware VM management, participation in critical infrastructure monitoring. Authored procedures to standardize interventions.",
+        "seo_sea_focus": "Service availability and responsiveness, preventing UX drop-offs after click."
+      },
+      {
+        "role": "IT Support & Maintenance Technician",
+        "location": "Paris, France",
+        "start": "2017-03",
+        "end": "2017-05",
+        "employment_type": "Internship",
+        "description": "User support, preventive/corrective maintenance, initial VMware virtualization experience, and network setup participation. Documented interventions.",
+        "seo_sea_focus": "Reliability and service continuity to avoid UX degradation (bounce) in SEO/SEA."
+      }
+    ]
+  }
+]
