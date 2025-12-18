@@ -1,6 +1,8 @@
 import Edu_Timeline from "../../components/edu_timeline";
 import education from "../../data/education_data.json";
-import {Tabs, Tab, Card, CardBody} from "@heroui/react";
+import experiences from "../../data/experiences_data.json";
+import {Tabs, Tab} from "@heroui/react";
+import Experiences_Timeline from "../../components/experiences_timeline";
 
 export default function Resume() {
     console.log(education)
@@ -13,13 +15,9 @@ export default function Resume() {
               />
           </Tab>
           <Tab key="Professional Experience" title="Professional Experience">
-            <Card>
-              <CardBody>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
-              </CardBody>
-            </Card>
+              <Experiences_Timeline
+                data={experiences}
+              />
           </Tab>
         </Tabs>
       </div>
