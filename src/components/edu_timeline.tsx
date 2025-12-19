@@ -19,7 +19,7 @@ export default function Edu_Timeline({data}: { data: Array<Education>}): React.R
                         <span className="size-3 shrink-0 rounded-full bg-blue-600"></span>
 
                         <div className="-mt-2">
-                            <Card className="overflow-none border-small border-foreground/10 relative w-[400px]">
+                            <Card className="overflow-none border-small border-foreground/10 relative min-w-[400px]">
                                 <CardHeader>
                                     <div className="flex items-center gap-3">
                                         <Image
