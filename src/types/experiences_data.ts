@@ -5,8 +5,8 @@ export interface Experiences {
         {
             role: string;
             location: string;
-            start: Date;
-            end: Date | null;
+            start: string;
+            end: string;
             employment_type: string;
             description: string;
             seo_sea_focus: string;
