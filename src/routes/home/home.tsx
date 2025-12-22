@@ -1,16 +1,47 @@
-import { Button, Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Image, Card, Tooltip, Snippet } from '@heroui/react'
+import {
+  Button,
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  Link,
+  Image,
+  Card,
+  Tooltip,
+  CardBody,
+  Tab,
+  Tabs,
+} from '@heroui/react'
 import IconLinkedin from '../../components/icons/IconLinkedin'
 import IconGithub from '../../components/icons/IconGithub'
 import IconDiscord from '../../components/icons/IconDiscord'
 import IconFile from '../../components/icons/IconFile'
 import IconMail from '../../components/icons/IconMail'
 import IconCalendar from '../../components/icons/IconCalendar'
+import ToolsCarousel from '../../components/tools_carousel/tools_carousel'
+import SkillsGrid from '../../components/skills_grid/skills_grid'
+
 
 export default function Home() {
   return (
-    <>
+    <div>
+      <div className="min-h-screen w-full bg-[#101014] relative text-white">
+        <div
+          className="absolute inset-0 z-0 pointer-events-none"
+          style={{
+            backgroundImage: `
+              repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0, rgba(255,255,255,0.04) 1px, transparent 1px, transparent 40px),
+              repeating-linear-gradient(45deg, rgba(0,255,128,0.09) 0, rgba(0,255,128,0.09) 1px, transparent 1px, transparent 20px),
+              repeating-linear-gradient(-45deg, rgba(255,0,128,0.10) 0, rgba(255,0,128,0.10) 1px, transparent 1px, transparent 30px),
+              repeating-linear-gradient(90deg, rgba(255,255,255,0.03) 0, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 80px),
+              radial-gradient(circle at 60% 40%, rgba(0,255,128,0.05) 0, transparent 60%)
+            `,
+            backgroundSize: "80px 80px, 40px 40px, 60px 60px, 80px 80px, 100% 100%",
+            backgroundPosition: "0 0, 0 0, 0 0, 40px 40px, center"
+          }}
+        />
       <div className="h-svh flex flex-col">
-        <Navbar>
+        <Navbar className='bg-transparent'>
           <NavbarBrand>
             <p className="font-bold text-inherit">DAMOKLES</p>
           </NavbarBrand>
@@ -46,7 +77,7 @@ export default function Home() {
         </Navbar>
         <div className="mt-8 h-full flex justify-center items-center gap-8">
           <div>
-            <Image src="images/me.webp" alt="Damokles" height={400} width={200} />
+            <Image src="images/me.webp" alt="Damokles" height={400} width={200} className='shadow-lg' />
           </div>
           <div className="flex flex-col gap-12">
             <div className="space-y-6">
@@ -63,42 +94,104 @@ export default function Home() {
               </p>
             </div>
             <div className="w-fit flex flex-col gap-4">
-            <Card radius="sm" className='flex flex-row h-full w-fit p-1 items-center justify-center gap-2'>
-              <Button as={Link} href="mailto:bouzon.alexandre@gmail.com" target="_blank" variant='ghost' size="sm" radius="sm" startContent={<IconMail strokeColor='white' width={24} height={24} />}>Contact Me</Button>
-              <div className=" w-1 h-1 bg-white rounded-full"></div>
-              <Button as={Link} href="https://cal.com/damokles/rdvvisio" target="_blank" variant='ghost' size="sm" radius="sm" startContent={<IconCalendar strokeColor='white' width={24} height={24} />}>Book A Call</Button>
-            </Card>
-            <span className="flex items-center justify-start mt-6 hover:scale-110 transition group">
-              <span className="h-px flex-1 bg-linear-to-r from-transparent dark:to-gray-600"></span>
-              <span className="shrink-0 px-2 text-gray-400 text-xs"> <span className=' hidden group-hover:inline-block'>👇🏼</span>If You need more ways to contact me<span className=' hidden group-hover:inline-block'>👇🏼</span></span>
-              <span className="h-px flex-1 bg-linear-to-l from-transparent dark:to-gray-600"></span>
-            </span>
-            <div className="flex w-full justify-evenly">
-              <Button as={Link} href="https://www.linkedin.com/in/alexandre-bouzon/" target="_blank" isIconOnly variant="flat" className=" hover:text-[#bc13fe] hover:scale-110">
-                <IconLinkedin />
-              </Button>
-              <Button as={Link} href="https://github.com/Damokless" target="_blank" isIconOnly variant="flat" className=" hover:text-[#bc13fe] hover:scale-110">
-                <IconGithub />
-              </Button>
-              <Tooltip content="damokles_" showArrow={true}>
-                <Button isIconOnly variant="flat" className=" hover:text-[#bc13fe] hover:scale-110">
-                  <IconDiscord />
+              <Card radius="sm" className="flex flex-row h-full w-fit p-1 items-center justify-center gap-2">
+                <Button
+                  as={Link}
+                  href="mailto:bouzon.alexandre@gmail.com"
+                  target="_blank"
+                  variant="ghost"
+                  size="sm"
+                  radius="sm"
+                  startContent={<IconMail strokeColor="white" width={24} height={24} />}
+                >
+                  Contact Me
                 </Button>
-              </Tooltip>
-              <Button as={Link} href="https://docs.google.com/document/d/17wHqqEzjqLWKSFcKFtiyubcKa1VNgg140MzolJ454wA/edit?usp=sharing" target="_blank" isIconOnly variant="flat" className=" hover:text-[#bc13fe] hover:scale-110">
-                <IconFile />
-              </Button>
-            </div>
+                <div className=" w-1 h-1 bg-white rounded-full"></div>
+                <Button
+                  as={Link}
+                  href="https://cal.com/damokles/rdvvisio"
+                  target="_blank"
+                  variant="ghost"
+                  size="sm"
+                  radius="sm"
+                  startContent={<IconCalendar strokeColor="white" width={24} height={24} />}
+                >
+                  Book A Call
+                </Button>
+              </Card>
+              <span className="flex items-center justify-start mt-6 hover:scale-110 transition group shadow-lg">
+                <span className="h-px flex-1 bg-linear-to-r from-transparent dark:to-gray-600"></span>
+                <span className="shrink-0 px-2 text-gray-400 text-xs">
+                  {' '}
+                  <span className=" hidden group-hover:inline-block">👇🏼</span>If You need more ways to contact me
+                  <span className=" hidden group-hover:inline-block">👇🏼</span>
+                </span>
+                <span className="h-px flex-1 bg-linear-to-l from-transparent dark:to-gray-600"></span>
+              </span>
+              <div className="flex w-full justify-evenly">
+                <Button
+                  as={Link}
+                  href="https://www.linkedin.com/in/alexandre-bouzon/"
+                  target="_blank"
+                  isIconOnly
+                  variant="flat"
+                  className=" hover:text-[#bc13fe] hover:scale-110 shadow-lg"
+                >
+                  <IconLinkedin />
+                </Button>
+                <Button
+                  as={Link}
+                  href="https://github.com/Damokless"
+                  target="_blank"
+                  isIconOnly
+                  variant="flat"
+                  className=" hover:text-[#bc13fe] hover:scale-110 shadow-lg"
+                >
+                  <IconGithub />
+                </Button>
+                <Tooltip content="damokles_" showArrow={true}>
+                  <Button isIconOnly variant="flat" className=" hover:text-[#bc13fe] hover:scale-110 shadow-lg">
+                    <IconDiscord />
+                  </Button>
+                </Tooltip>
+                <Button
+                  as={Link}
+                  href="https://docs.google.com/document/d/17wHqqEzjqLWKSFcKFtiyubcKa1VNgg140MzolJ454wA/edit?usp=sharing"
+                  target="_blank"
+                  isIconOnly
+                  variant="flat"
+                  className=" hover:text-[#bc13fe] hover:scale-110 shadow-lg"
+                >
+                  <IconFile />
+                </Button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <Button color="primary" variant="flat">
-        Home
-      </Button>
-      <Button color="primary" variant="flat">
-        Career ( two sections : Companies that trusted me & Education)
-      </Button>
+      </div>
+      <div className="bg-default-100/65 bg-clip-padding px-24 py-12 flex flex-col gap-16">
+        <div className="flex flex-col w-full">
+          <Card className="max-w-full ">
+            <CardBody className="overflow-hidden">
+              <Tabs
+                fullWidth
+                aria-label="Tabs form"
+                size="md"
+              >
+                <Tab key="experiences" title="EXPERIENCES">
+                  <div>ehehe</div>
+                </Tab>
+                <Tab key="educations" title="EDUCATIONS">
+                  <div>hihihi</div>
+                </Tab>
+              </Tabs>
+            </CardBody>
+          </Card>
+        </div>
+        <ToolsCarousel />
+        <SkillsGrid />
+      </div>
       <Button color="primary" variant="flat">
         Skills - tools (Languages, Frameworks, Libraries, Tools)
       </Button>
@@ -111,6 +204,6 @@ export default function Home() {
       <Button color="primary" variant="flat">
         Contact ( Email, call booking, LinkedIn, GitHub, Resume,)
       </Button>
-    </>
+    </div>
   )
 }

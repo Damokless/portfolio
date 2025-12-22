@@ -1,0 +1,44 @@
+{
+  "frontend": [
+    { "name": "html", "logo": "html.webp", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"  },
+    { "name": "css", "logo": "css.webp", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"  },
+    { "name": "ReactJS", "logo": "react.webp", "url": "https://react.dev/" },
+    { "name": "NextJS", "logo": "next.webp", "url": "https://nextjs.org/"  },
+    { "name": "react-router", "logo": "reactrouter.webp", "url": "https://reactrouter.com/"  },
+    { "name": "Redux", "logo": "redux.webp", "url": "https://redux.js.org/"  },
+    { "name": "zustand", "logo": "zustand.webp", "url": "https://zustand-demo.pmnd.rs/"  },
+    { "name": "tailwindcss", "logo": "tailwindcss.webp", "url": "https://tailwindcss.com/"  },
+    { "name": "Storybook", "logo": "storybook.webp", "url": "https://storybook.js.org/"  }
+  ],
+  "backend": [
+    { "name": "NodeJS", "logo": "nodejs.webp", "url": "https://nodejs.org/"  },
+    { "name": "Express", "logo": "express.webp", "url": "https://expressjs.com/"  },
+    { "name": "fastify", "logo": "fastify.webp", "url": "https://www.fastify.io/"  },
+    { "name": "prisma", "logo": "prisma.webp", "url": "https://www.prisma.io/"  },
+    { "name": "knex", "logo": "knex.webp", "url": "https://knexjs.org/"  },
+    { "name": "Sequelize", "logo": "sequelize.webp", "url": "https://sequelize.org/"  },
+    { "name": "graphql", "logo": "graphql.webp", "url": "https://graphql.org/"  }
+  ],
+  "languages": [
+    { "name": "Javascript", "logo": "javascript.webp", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"  },
+    { "name": "Typescript", "logo": "typescript.webp", "url": "https://www.typescriptlang.org/"  },
+    { "name": "bash", "logo": "bash.webp", "url": "https://www.gnu.org/software/bash/"  },
+    { "name": "powershell", "logo": "powershell.webp", "url": "https://learn.microsoft.com/fr-fr/powershell/"  }
+  ],
+  "cloud": [
+    { "name": "AWS", "logo": "aws.webp", "url": "https://aws.amazon.com/"  },
+    { "name": "Azure", "logo": "azure.webp", "url": "https://azure.microsoft.com/"  },
+    { "name": "Google", "logo": "googlecloud.webp", "url": "https://cloud.google.com/"  },
+    { "name": "DigitalOcean", "logo": "digitalocean.webp", "url": "https://www.digitalocean.com/"  },
+    { "name": "Netlify", "logo": "netlify.webp", "url": "https://www.netlify.com/"  },
+    { "name": "Vercel", "logo": "vercel.webp", "url": "https://vercel.com/home"  },
+    { "name": "Heroku", "logo": "heroku.webp", "url": "https://www.heroku.com/"  }
+  ],
+  "databases": [
+    { "name": "MySql", "logo": "mysql.webp", "url": "https://www.mysql.com/"  },
+    { "name": "Postgres", "logo": "postgres.webp", "url": "https://www.postgresql.org/"  },
+    { "name": "MongoDB", "logo": "mongodb.webp", "url": "https://www.mongodb.com/"  },
+    { "name": "MariaDB", "logo": "mariadb.webp", "url": "https://mariadb.org/"  },
+    { "name": "SQLite", "logo": "sqlite.webp", "url": "https://www.sqlite.org/"  }
+  ]
+}

@@ -12,6 +12,9 @@
   "dependencies": {
     "@heroui/react": "^2.8.5",
     "@tailwindcss/vite": "^4.1.17",
+    "embla-carousel-auto-scroll": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.23.26",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

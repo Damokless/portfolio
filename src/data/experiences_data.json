@@ -1,7 +1,7 @@
 [
     {
         "company": "Disneyland Paris",
-        "logo": "disneylandparis.webp",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGuCVYwxhzrfg/company-logo_200_200/company-logo_200_200/0/1674059908384/disneyland_paris_logo?e=1767830400&v=beta&t=qfXNOG6Q4JnZptxfvGcDAkaDqvYmOYduDGVg_C8Bek4",
         "experiences": [
             {
                 "role": "Customer Advisor",
@@ -39,7 +39,7 @@
     },
     {
         "company": "Eats-Eazy",
-        "logo": "eatseazy.webp",
+        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFK-4mPkoYwlw/company-logo_200_200/company-logo_200_200/0/1630558877714/eats_eazy_logo?e=1767830400&v=beta&t=f0SbBVxvSPHoRcCFTwbTWlane2wOOfbLveZ8xol5QXY",
         "experiences": [
             {
                 "role": "Fullstack Web Developer",
@@ -54,7 +54,7 @@
     },
     {
         "company": "Light Kitchen",
-        "logo": "lightkitchen.webp",
+        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFFaX-fKr3fKQ/company-logo_200_200/company-logo_200_200/0/1630540713981?e=1767830400&v=beta&t=cFOMzAAihFr-o5EdLyyBwgvFuV7AS5X8AAwQOtyv6YE",
         "experiences": [
             {
                 "role": "Fullstack Web Developer",
@@ -69,7 +69,7 @@
     },
     {
         "company": "Caseware France",
-        "logo": "caseware.webp",
+        "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEeFYqX2oBerw/company-logo_200_200/company-logo_200_200/0/1652944100128/caseware_france_logo?e=1767830400&v=beta&t=WJdAdKxSoXuqlhQBeKbjfHMa1lyk0NWl-0G54FYs45k",
         "experiences": [
             {
                 "role": "Fullstack Web Developer",
@@ -84,7 +84,7 @@
     },
     {
         "company": "Elogie-Siemp",
-        "logo": "elogie.webp",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH7Hoi85D8ONg/company-logo_200_200/company-logo_200_200/0/1704815811016/elogie_siemp_logo?e=1767830400&v=beta&t=RGwqReg6GEK54M4gTHXI4ROF7_8NHLo3IVPmznK-9Vw",
         "experiences": [
             {
                 "role": "Systems & Network Administrator",
@@ -117,7 +117,7 @@
     },
     {
         "company": "SNCF Réseaux",
-        "logo": "sncf.webp",
+        "logo": "https://media.licdn.com/dms/image/v2/C510BAQE1RnzBubz1Fw/company-logo_200_200/company-logo_200_200/0/1631360412453?e=1767830400&v=beta&t=f9iFJdkbZ8glL-JXvQN3eeSDaE-DnLnPve3BUmzlxqE",
         "experiences": [
             {
                 "role": "IT Support & Maintenance Technician",

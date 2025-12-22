@@ -1,0 +1,22 @@
+[
+  { "name": "Bun", "logo": "bun.webp", "url": "https://bun.com/" },
+  { "name": "Npm", "logo": "npm.webp", "url": "https://www.npmjs.com/" },
+  { "name": "Yarn", "logo": "yarn.webp", "url": "https://yarnpkg.com/" },
+  { "name": "Docker", "logo": "docker.webp", "url": "https://www.docker.com/" },
+  { "name": "Postman", "logo": "postman.webp", "url": "https://www.postman.com/" },
+  { "name": "Insomnia", "logo": "insomnia.webp", "url": "https://insomnia.rest/" },
+  { "name": "Httpie", "logo": "httpie.webp", "url": "https://httpie.io/" },
+  { "name": "Eslint", "logo": "eslint.webp", "url": "https://eslint.org/" },
+  { "name": "Prettier", "logo": "prettier.webp", "url": "https://prettier.io/" },
+  { "name": "OxLint", "logo": "oxlint.webp", "url": "https://oxlint.io/" },
+  { "name": "Nodemon", "logo": "nodemon.webp", "url": "https://nodemon.io/" },
+  { "name": "Dbeaver", "logo": "dbeaver.webp", "url": "https://dbeaver.io/" },
+  { "name": "VS Code", "logo": "vscode.webp", "url": "https://code.visualstudio.com/" },
+  { "name": "Zed", "logo": "zed.webp", "url": "https://zed.dev/" },
+  { "name": "Git", "logo": "git.webp", "url": "https://git-scm.com/" },
+  { "name": "GitKraken", "logo": "gitkraken.webp", "url": "https://www.gitkraken.com/" },
+  { "name": "GitHub", "logo": "github.webp", "url": "https://github.com/" },
+  { "name": "Gitlab", "logo": "gitlab.webp", "url": "https://gitlab.com/" },
+  { "name": "Slack", "logo": "slack.webp", "url": "https://slack.com/" },
+  { "name": "Figma", "logo": "figma.webp", "url": "https://www.figma.com/" }
+]
