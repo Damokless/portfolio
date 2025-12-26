@@ -157,16 +157,10 @@ export default function Home() {
         <Footer />
       </div>
       <Button color="primary" variant="flat">
-        Skills - tools (Languages, Frameworks, Libraries, Tools)
-      </Button>
-      <Button color="primary" variant="flat">
         Certifications
       </Button>
       <Button color="primary" variant="flat">
         Projects
-      </Button>
-      <Button color="primary" variant="flat">
-        Contact ( Email, call booking, LinkedIn, GitHub, Resume,)
       </Button>
     </div>
   )
