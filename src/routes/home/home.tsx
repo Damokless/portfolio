@@ -7,19 +7,16 @@ import {
   Link,
   Image,
   Card,
-  Tooltip,
   CardBody,
   Tab,
   Tabs,
 } from '@heroui/react'
-import IconLinkedin from '../../components/icons/IconLinkedin'
-import IconGithub from '../../components/icons/IconGithub'
-import IconDiscord from '../../components/icons/IconDiscord'
-import IconFile from '../../components/icons/IconFile'
 import IconMail from '../../components/icons/IconMail'
 import IconCalendar from '../../components/icons/IconCalendar'
 import ToolsCarousel from '../../components/tools_carousel/tools_carousel'
 import SkillsGrid from '../../components/skills_grid/skills_grid'
+import SocialsButtons from '../../components/socials_buttons'
+import Footer from '../../components/footer'
 
 
 export default function Home() {
@@ -129,41 +126,7 @@ export default function Home() {
                 <span className="h-px flex-1 bg-linear-to-l from-transparent dark:to-gray-600"></span>
               </span>
               <div className="flex w-full justify-evenly">
-                <Button
-                  as={Link}
-                  href="https://www.linkedin.com/in/alexandre-bouzon/"
-                  target="_blank"
-                  isIconOnly
-                  variant="flat"
-                  className=" hover:text-[#bc13fe] hover:scale-110 shadow-lg"
-                >
-                  <IconLinkedin />
-                </Button>
-                <Button
-                  as={Link}
-                  href="https://github.com/Damokless"
-                  target="_blank"
-                  isIconOnly
-                  variant="flat"
-                  className=" hover:text-[#bc13fe] hover:scale-110 shadow-lg"
-                >
-                  <IconGithub />
-                </Button>
-                <Tooltip content="damokles_" showArrow={true}>
-                  <Button isIconOnly variant="flat" className=" hover:text-[#bc13fe] hover:scale-110 shadow-lg">
-                    <IconDiscord />
-                  </Button>
-                </Tooltip>
-                <Button
-                  as={Link}
-                  href="https://docs.google.com/document/d/17wHqqEzjqLWKSFcKFtiyubcKa1VNgg140MzolJ454wA/edit?usp=sharing"
-                  target="_blank"
-                  isIconOnly
-                  variant="flat"
-                  className=" hover:text-[#bc13fe] hover:scale-110 shadow-lg"
-                >
-                  <IconFile />
-                </Button>
+                <SocialsButtons />
               </div>
             </div>
           </div>
@@ -191,6 +154,7 @@ export default function Home() {
         </div>
         <ToolsCarousel />
         <SkillsGrid />
+        <Footer />
       </div>
       <Button color="primary" variant="flat">
         Skills - tools (Languages, Frameworks, Libraries, Tools)
