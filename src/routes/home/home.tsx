@@ -1,9 +1,5 @@
 import {
   Button,
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
   Link,
   Image,
   Card,
@@ -16,8 +12,6 @@ import IconCalendar from '../../components/icons/IconCalendar'
 import ToolsCarousel from '../../components/tools_carousel/tools_carousel'
 import SkillsGrid from '../../components/skills_grid/skills_grid'
 import SocialsButtons from '../../components/socials_buttons'
-import Footer from '../../components/footer'
-
 
 export default function Home() {
   return (
@@ -38,40 +32,6 @@ export default function Home() {
           }}
         />
       <div className="h-svh flex flex-col">
-        <Navbar className='bg-transparent'>
-          <NavbarBrand>
-            <p className="font-bold text-inherit">DAMOKLES</p>
-          </NavbarBrand>
-          <NavbarContent className="hidden sm:flex gap-4" justify="center">
-            <NavbarItem>
-              <Link color="foreground" href="#">
-                Career
-              </Link>
-            </NavbarItem>
-            <NavbarItem isActive>
-              <Link aria-current="page" href="#">
-                skills
-              </Link>
-            </NavbarItem>
-            <NavbarItem>
-              <Link color="foreground" href="#">
-                Certifications
-              </Link>
-            </NavbarItem>
-            <NavbarItem>
-              <Link color="foreground" href="#">
-                Projects
-              </Link>
-            </NavbarItem>
-          </NavbarContent>
-          <NavbarContent justify="end">
-            <NavbarItem>
-              <Button as={Link} color="primary" href="#" variant="flat">
-                Dark/light
-              </Button>
-            </NavbarItem>
-          </NavbarContent>
-        </Navbar>
         <div className="mt-8 h-full flex justify-center items-center gap-8">
           <div>
             <Image src="images/me.webp" alt="Damokles" height={400} width={200} className='shadow-lg' />
@@ -154,7 +114,6 @@ export default function Home() {
         </div>
         <ToolsCarousel />
         <SkillsGrid />
-        <Footer />
       </div>
       <Button color="primary" variant="flat">
         Certifications
