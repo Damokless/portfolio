@@ -1,12 +1,4 @@
-import {
-  Button,
-  Link,
-  Image,
-  Card,
-  CardBody,
-  Tab,
-  Tabs,
-} from '@heroui/react'
+import { Button, Link, Image, Card, CardBody, Tab, Tabs } from '@heroui/react'
 import IconMail from '../../components/icons/IconMail'
 import IconCalendar from '../../components/icons/IconCalendar'
 import ToolsCarousel from '../../components/tools_carousel/tools_carousel'
@@ -16,92 +8,87 @@ import SocialsButtons from '../../components/socials_buttons'
 export default function Home() {
   return (
     <div>
-      <div className="min-h-screen w-full bg-[#101014] relative text-white">
+      <div className="min-h-screen w-full bg-black relative isolate">
         <div
-          className="absolute inset-0 z-0 pointer-events-none"
+          className="absolute inset-0 -z-10"
           style={{
+            background: '#000000',
             backgroundImage: `
-              repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0, rgba(255,255,255,0.04) 1px, transparent 1px, transparent 40px),
-              repeating-linear-gradient(45deg, rgba(0,255,128,0.09) 0, rgba(0,255,128,0.09) 1px, transparent 1px, transparent 20px),
-              repeating-linear-gradient(-45deg, rgba(255,0,128,0.10) 0, rgba(255,0,128,0.10) 1px, transparent 1px, transparent 30px),
-              repeating-linear-gradient(90deg, rgba(255,255,255,0.03) 0, rgba(255,255,255,0.03) 1px, transparent 1px, transparent 80px),
-              radial-gradient(circle at 60% 40%, rgba(0,255,128,0.05) 0, transparent 60%)
+              radial-gradient(circle at 1px 1px, rgba(139, 92, 246, 0.2) 1px, transparent 0),
+              radial-gradient(circle at 1px 1px, rgba(59, 130, 246, 0.18) 1px, transparent 0),
+              radial-gradient(circle at 1px 1px, rgba(236, 72, 153, 0.15) 1px, transparent 0)
             `,
-            backgroundSize: "80px 80px, 40px 40px, 60px 60px, 80px 80px, 100% 100%",
-            backgroundPosition: "0 0, 0 0, 0 0, 40px 40px, center"
+            backgroundSize: '20px 20px, 30px 30px, 25px 25px',
+            backgroundPosition: '0 0, 10px 10px, 15px 5px',
           }}
         />
-      <div className="h-svh flex flex-col">
-        <div className="mt-8 h-full flex justify-center items-center gap-8">
-          <div>
-            <Image src="images/me.webp" alt="Damokles" height={400} width={200} className='shadow-lg' />
-          </div>
-          <div className="flex flex-col gap-12">
-            <div className="space-y-6">
-              <h1 className="text-4xl font-bold">
-                Hello there ! I'm{' '}
-                <span className=" bg-linear-to-r from-[#bc13fe] to-[#DE89FF] bg-clip-text text-transparent">
-                  Damokles
-                </span>
-                . <br />A Full-stack developer.
-              </h1>
-              <p className=" text-gray-400 text-wrap w-3xl">
-                I turn coffee into code, Trying tp Building pixel-perfect apps with innovative solutions and suffering
-                to find the best way to solve problems mainly with the help of the JS ecosystem.
-              </p>
+        <div className="h-svh flex flex-col">
+          <div className="mt-8 h-full flex justify-center items-center gap-8">
+            <div>
+              <Image src="images/me.webp" alt="Damokles" height={400} width={200} className="shadow-lg" />
             </div>
-            <div className="w-fit flex flex-col gap-4">
-              <Card radius="sm" className="flex flex-row h-full w-fit p-1 items-center justify-center gap-2">
-                <Button
-                  as={Link}
-                  href="mailto:bouzon.alexandre@gmail.com"
-                  target="_blank"
-                  variant="ghost"
-                  size="sm"
-                  radius="sm"
-                  startContent={<IconMail strokeColor="white" width={24} height={24} />}
-                >
-                  Contact Me
-                </Button>
-                <div className=" w-1 h-1 bg-white rounded-full"></div>
-                <Button
-                  as={Link}
-                  href="https://cal.com/damokles/rdvvisio"
-                  target="_blank"
-                  variant="ghost"
-                  size="sm"
-                  radius="sm"
-                  startContent={<IconCalendar strokeColor="white" width={24} height={24} />}
-                >
-                  Book A Call
-                </Button>
-              </Card>
-              <span className="flex items-center justify-start mt-6 hover:scale-110 transition group shadow-lg">
-                <span className="h-px flex-1 bg-linear-to-r from-transparent dark:to-gray-600"></span>
-                <span className="shrink-0 px-2 text-gray-400 text-xs">
-                  {' '}
-                  <span className=" hidden group-hover:inline-block">👇🏼</span>If You need more ways to contact me
-                  <span className=" hidden group-hover:inline-block">👇🏼</span>
+            <div className="flex flex-col gap-12">
+              <div className="space-y-6">
+                <h1 className="text-4xl font-bold">
+                  Hello there ! I'm{' '}
+                  <span className=" bg-linear-to-r from-[#bc13fe] to-[#DE89FF] bg-clip-text text-transparent">
+                    Damokles
+                  </span>
+                  . <br />A Full-stack developer.
+                </h1>
+                <p className=" text-gray-400 text-wrap w-3xl">
+                  I turn coffee into code, Trying tp Building pixel-perfect apps with innovative solutions and suffering
+                  to find the best way to solve problems mainly with the help of the JS ecosystem.
+                </p>
+              </div>
+              <div className="w-fit flex flex-col gap-4">
+                <Card radius="sm" className="flex flex-row h-full w-fit p-1 items-center justify-center gap-2">
+                  <Button
+                    as={Link}
+                    href="mailto:bouzon.alexandre@gmail.com"
+                    target="_blank"
+                    variant="ghost"
+                    size="sm"
+                    radius="sm"
+                    startContent={<IconMail strokeColor="white" width={24} height={24} />}
+                  >
+                    Contact Me
+                  </Button>
+                  <div className=" w-1 h-1 bg-white rounded-full"></div>
+                  <Button
+                    as={Link}
+                    href="https://cal.com/damokles/rdvvisio"
+                    target="_blank"
+                    variant="ghost"
+                    size="sm"
+                    radius="sm"
+                    startContent={<IconCalendar strokeColor="white" width={24} height={24} />}
+                  >
+                    Book A Call
+                  </Button>
+                </Card>
+                <span className="flex items-center justify-start mt-6 hover:scale-110 transition group shadow-lg">
+                  <span className="h-px flex-1 bg-linear-to-r from-transparent dark:to-gray-600"></span>
+                  <span className="shrink-0 px-2 text-gray-400 text-xs">
+                    {' '}
+                    <span className=" hidden group-hover:inline-block">👇🏼</span>If You need more ways to contact me
+                    <span className=" hidden group-hover:inline-block">👇🏼</span>
+                  </span>
+                  <span className="h-px flex-1 bg-linear-to-l from-transparent dark:to-gray-600"></span>
                 </span>
-                <span className="h-px flex-1 bg-linear-to-l from-transparent dark:to-gray-600"></span>
-              </span>
-              <div className="flex w-full justify-evenly">
-                <SocialsButtons />
+                <div className="flex w-full justify-evenly">
+                  <SocialsButtons />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
       <div className="bg-default-100/65 bg-clip-padding px-24 py-12 flex flex-col gap-16">
         <div className="flex flex-col w-full">
           <Card className="max-w-full ">
             <CardBody className="overflow-hidden">
-              <Tabs
-                fullWidth
-                aria-label="Tabs form"
-                size="md"
-              >
+              <Tabs fullWidth aria-label="Tabs form" size="md">
                 <Tab key="experiences" title="EXPERIENCES">
                   <div>ehehe</div>
                 </Tab>
@@ -115,12 +102,6 @@ export default function Home() {
         <ToolsCarousel />
         <SkillsGrid />
       </div>
-      <Button color="primary" variant="flat">
-        Certifications
-      </Button>
-      <Button color="primary" variant="flat">
-        Projects
-      </Button>
     </div>
   )
 }
