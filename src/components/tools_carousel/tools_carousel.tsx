@@ -17,7 +17,7 @@ export default function ToolsCarousel() {
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
           {ToolsCarouselData.map(tool => (
-            <div key={tool.name} className="flex-[0_0_7%] flex min-w-0 justify-center items-center gap-4">
+            <div key={tool.name} className="md:flex-[0_0_7%] flex-[0_0_15%] flex min-w-0 justify-center items-center gap-4">
               <Link href={tool.url} target="_blank">
                 <Tooltip content={tool.name} showArrow>
                   <img src={`assets/${tool.logo}`} alt={tool.name} className=" w-10 h-10 object-contain " />
