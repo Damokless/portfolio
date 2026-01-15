@@ -1,5 +1,4 @@
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@heroui/react";
-import ThemeSwitcher from "./theme_switcher";
+import { Navbar, NavbarBrand } from "@heroui/react";
 
 export default function Header() {
     return (
@@ -7,11 +6,11 @@ export default function Header() {
           <NavbarBrand>
             <p className="font-bold text-inherit">DAMOKLES</p>
           </NavbarBrand>
-          <NavbarContent justify="end">
+          {/*<NavbarContent justify="end">
             <NavbarItem>
               <ThemeSwitcher />
             </NavbarItem>
-          </NavbarContent>
+          </NavbarContent>*/}
       </Navbar>
     );
 }
