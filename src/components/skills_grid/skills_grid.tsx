@@ -4,7 +4,7 @@ import { Image, Tooltip } from '@heroui/react'
 export default function SkillsGrid() {
 
   return (
-    <div className=" grid grid-cols-2 grid-rows-2 gap-12">
+    <div className=" grid md:grid-cols-2 md:grid-rows-2 md:gap-12 gap-6">
       <div className="flex flex-col justify-center items-center">
         LANGUAGES
         <SpotlightCard>
