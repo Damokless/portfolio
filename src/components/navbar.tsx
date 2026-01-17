@@ -1,16 +1,25 @@
-import { Navbar, NavbarBrand } from "@heroui/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@heroui/react";
 
 export default function Header() {
     return (
-        <Navbar className=' flex-1 bg-transparent' maxWidth="2xl">
+        <Navbar className=' flex-1 bg-transparent' maxWidth="xl">
           <NavbarBrand>
             <p className="font-bold text-inherit">DAMOKLES</p>
           </NavbarBrand>
-          {/*<NavbarContent justify="end">
+          <NavbarContent justify="end">
             <NavbarItem>
-              <ThemeSwitcher />
+              <Link href="#about">About</Link>
             </NavbarItem>
-          </NavbarContent>*/}
+            <NavbarItem>
+              <Link href="#projects">Career</Link>
+            </NavbarItem>
+            <NavbarItem>
+              <Link href="#skills">Skills</Link>
+            </NavbarItem>
+            {/*<NavbarItem>
+              <ThemeSwitcher />
+            </NavbarItem>*/}
+          </NavbarContent>
       </Navbar>
     );
 }
