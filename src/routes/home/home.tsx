@@ -37,7 +37,7 @@ export default function Home() {
                   . <br />A Full-stack developer.
                 </h1>
                 <p className=" text-gray-400 text-wrap w-3xl">
-                  I turn coffee into code, Trying tp Building pixel-perfect apps with innovative solutions and suffering
+                  I turn coffee into code, Trying to build pixel-perfect apps with innovative solutions and suffering
                   to find the best way to solve problems mainly with the help of the JS ecosystem.
                 </p>
               </div>
