@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </div>
       </div>
-      <div className="dark:bg-default-100/65 bg-default-100 bg-clip-padding px-24 py-12 flex flex-col gap-16">
+      <div className="dark:bg-default-100/65 bg-default-100 bg-clip-padding px-12 md:px-24 py-12 flex flex-col gap-16">
         <div className="flex flex-col">
           <Card className="max-w-full ">
             <CardBody className="overflow-hidden">
