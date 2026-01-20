@@ -4,13 +4,14 @@
         "logo": "disneylandparis.webp",
         "experiences": [
             {
-                "role": "Customer Advisor",
-                "location": "Hybrid (Chessy, France)",
-                "start": "2025-11",
-                "end": "Present",
-                "employment_type": "Fixed-term contract",
-                "description": "Handle customer requests in a hybrid environment, prioritizing issues and communicating clearly. Direct exposure to the customer journey helps craft coherent messaging and page flows, identify friction points, and improve post-click satisfaction (SEO/SEA).",
-                "seo_sea_focus": "Understanding user intent and journey to optimize wording, information hierarchy, and CTAs on SEO/SEA landing pages."
+              "role": "Customer Advisor",
+              "company": "Disneyland Paris",
+              "location": "Hybrid (Chessy, France)",
+              "start": "2025-11",
+              "end": "Present",
+              "employment_type": "Fixed-term contract",
+              "description": "Advise customers by phone on booking Disneyland Paris stays using a consultative sales approach. Daily exposure to real user expectations, objections, and decision triggers provides concrete insights into user behavior, conversion friction, and information clarity. This experience strengthens a product-driven mindset applicable to front-end UX decisions, back-end business logic, and full-stack feature design.",
+              "seo_sea_focus": "Strong understanding of user intent, search motivations, and conversion blockers through direct customer interactions, helping design clearer information hierarchies, more relevant CTAs, and landing pages aligned with real user questions and expectations."
             },
             {
                 "role": "Ride Operator / Host",
