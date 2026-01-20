@@ -10,7 +10,7 @@ export default function EducationTab() {
             <img src={`/images/${school.logo}`} alt={school.institution} className="h-full w-full object-cover rounded-full" />
           </div>
           <h3 className=" text-sm/6 font-semibold text-white">{school.institution} | {school.location}</h3>
-          <p className="font-display text-2xs/6 order-first font-semibold tracking-[0.2em] bg-linear-to-r from-[#DE89FF] from-5% to-[#BC13FE] to-100% bg-clip-text text-transparent">
+          <p className="font-display text-2xs/6 order-first font-semibold bg-linear-to-r from-[#DE89FF] from-5% to-[#BC13FE] to-100% bg-clip-text text-transparent">
             {school.years}
           </p>
           <p className="mt-0.5 text-sm/6 text-zinc-400">
