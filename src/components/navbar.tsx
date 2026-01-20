@@ -2,7 +2,7 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link } from "@heroui/re
 
 export default function Header() {
     return (
-        <Navbar className=' flex-1 bg-transparent' maxWidth="xl">
+        <Navbar isBordered className=' bg-transparent' maxWidth="xl">
           <NavbarBrand>
             <p className="font-bold text-inherit">DAMOKLES</p>
           </NavbarBrand>
