@@ -7,8 +7,7 @@
     { "name": "react-router", "logo": "reactrouter.webp", "url": "https://reactrouter.com/"  },
     { "name": "Redux", "logo": "redux.webp", "url": "https://redux.js.org/"  },
     { "name": "zustand", "logo": "zustand.webp", "url": "https://zustand-demo.pmnd.rs/"  },
-    { "name": "tailwindcss", "logo": "tailwindcss.webp", "url": "https://tailwindcss.com/"  },
-    { "name": "Storybook", "logo": "storybook.webp", "url": "https://storybook.js.org/"  }
+    { "name": "tailwindcss", "logo": "tailwindcss.webp", "url": "https://tailwindcss.com/"  }
   ],
   "backend": [
     { "name": "NodeJS", "logo": "nodejs.webp", "url": "https://nodejs.org/"  },
