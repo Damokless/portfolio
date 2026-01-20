@@ -1,11 +1,11 @@
 [
     {
-        "company": "Disneyland Paris",
-        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGuCVYwxhzrfg/company-logo_200_200/company-logo_200_200/0/1674059908384/disneyland_paris_logo?e=1767830400&v=beta&t=qfXNOG6Q4JnZptxfvGcDAkaDqvYmOYduDGVg_C8Bek4",
+        "name": "Disneyland Paris",
+        "logo": "disneylandparis.webp",
         "experiences": [
             {
                 "role": "Customer Advisor",
-                "location": "Hybrid (Paris, France)",
+                "location": "Hybrid (Chessy, France)",
                 "start": "2025-11",
                 "end": "Present",
                 "employment_type": "Fixed-term contract",
@@ -14,7 +14,7 @@
             },
             {
                 "role": "Ride Operator / Host",
-                "location": "Paris, France",
+                "location": "Chessy, France",
                 "start": "2024-02",
                 "end": "Present",
                 "employment_type": "Full-time",
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "company": "Freelance",
+        "name": "Freelance",
         "experiences": [
             {
                 "role": "Fullstack Web Developer (Freelance)",
@@ -38,8 +38,8 @@
         ]
     },
     {
-        "company": "Eats-Eazy",
-        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFK-4mPkoYwlw/company-logo_200_200/company-logo_200_200/0/1630558877714/eats_eazy_logo?e=1767830400&v=beta&t=f0SbBVxvSPHoRcCFTwbTWlane2wOOfbLveZ8xol5QXY",
+        "name": "Eats-Eazy",
+        "logo": "eatseazy.webp",
         "experiences": [
             {
                 "role": "Fullstack Web Developer",
@@ -53,8 +53,8 @@
         ]
     },
     {
-        "company": "Light Kitchen",
-        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFFaX-fKr3fKQ/company-logo_200_200/company-logo_200_200/0/1630540713981?e=1767830400&v=beta&t=cFOMzAAihFr-o5EdLyyBwgvFuV7AS5X8AAwQOtyv6YE",
+        "name": "Light Kitchen",
+        "logo": "lightkitchen.webp",
         "experiences": [
             {
                 "role": "Fullstack Web Developer",
@@ -68,8 +68,8 @@
         ]
     },
     {
-        "company": "Caseware France",
-        "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEeFYqX2oBerw/company-logo_200_200/company-logo_200_200/0/1652944100128/caseware_france_logo?e=1767830400&v=beta&t=WJdAdKxSoXuqlhQBeKbjfHMa1lyk0NWl-0G54FYs45k",
+        "name": "Caseware France",
+        "logo": "caseware.webp",
         "experiences": [
             {
                 "role": "Fullstack Web Developer",
@@ -83,8 +83,8 @@
         ]
     },
     {
-        "company": "Elogie-Siemp",
-        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH7Hoi85D8ONg/company-logo_200_200/company-logo_200_200/0/1704815811016/elogie_siemp_logo?e=1767830400&v=beta&t=RGwqReg6GEK54M4gTHXI4ROF7_8NHLo3IVPmznK-9Vw",
+        "name": "Elogie-Siemp",
+        "logo": "elogie.webp",
         "experiences": [
             {
                 "role": "Systems & Network Administrator",
@@ -116,8 +116,8 @@
         ]
     },
     {
-        "company": "SNCF Réseaux",
-        "logo": "https://media.licdn.com/dms/image/v2/C510BAQE1RnzBubz1Fw/company-logo_200_200/company-logo_200_200/0/1631360412453?e=1767830400&v=beta&t=f9iFJdkbZ8glL-JXvQN3eeSDaE-DnLnPve3BUmzlxqE",
+        "name": "SNCF Réseaux",
+        "logo": "sncf.webp",
         "experiences": [
             {
                 "role": "IT Support & Maintenance Technician",

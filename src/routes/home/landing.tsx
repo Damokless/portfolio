@@ -5,6 +5,7 @@ import ToolsCarousel from '../../components/tools_carousel/tools_carousel'
 import SkillsGrid from '../../components/skills_grid/skills_grid'
 import SocialsButtons from '../../components/socials_buttons'
 import EducationTab from '../../components/career/education_tab'
+import ExperienceTab from '../../components/career/experiences_tab'
 
 export default function Home() {
   return (
@@ -74,7 +75,7 @@ export default function Home() {
             <CardBody className="overflow-hidden">
               <Tabs fullWidth aria-label="Tabs form" size="md">
                 <Tab key="experiences" title="EXPERIENCES">
-                  <div>ehehe</div>
+                  <ExperienceTab />
                 </Tab>
                 <Tab key="educations" title="EDUCATIONS">
                   <EducationTab />
