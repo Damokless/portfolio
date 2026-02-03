@@ -1,11 +1,8 @@
-import { Button, Link, Image, Card, CardBody, Tab, Tabs } from '@heroui/react'
-import IconMail from '../../components/icons/IconMail'
-import IconCalendar from '../../components/icons/IconCalendar'
-import ToolsCarousel from '../../components/tools_carousel/tools_carousel'
-import SkillsGrid from '../../components/skills_grid/skills_grid'
-import SocialsButtons from '../../components/socials_buttons'
-import EducationTab from '../../components/career/education_tab'
-import ExperienceTab from '../../components/career/experiences_tab'
+import { Button, Link, Image, Card, } from '@heroui/react'
+import IconMail from '../icons/IconMail'
+import IconCalendar from '../icons/IconCalendar'
+import SkillsGrid from './skills'
+import SocialsButtons from '../components/socials_buttons'
 
 export default function Home() {
   return (
@@ -70,21 +67,6 @@ export default function Home() {
           </div>
       </div>
       <div className="dark:bg-default-100/65 bg-default-100 bg-clip-padding px-12 md:px-24 py-12 flex flex-col gap-16">
-        <div className="flex flex-col">
-          <Card className="max-w-full ">
-            <CardBody className="overflow-hidden">
-              <Tabs fullWidth aria-label="Tabs form" size="md">
-                <Tab key="experiences" title="EXPERIENCES">
-                  <ExperienceTab />
-                </Tab>
-                <Tab key="educations" title="EDUCATIONS">
-                  <EducationTab />
-                </Tab>
-              </Tabs>
-            </CardBody>
-          </Card>
-        </div>
-        <ToolsCarousel />
         <SkillsGrid />
       </div>
     </div>

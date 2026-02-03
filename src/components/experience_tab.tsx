@@ -1,5 +1,5 @@
 import { Accordion, AccordionItem, Avatar } from '@heroui/react'
-import experiences from '../../data/experiences_data.json'
+import experiences from '../data/experiences_data.json'
 import IconBuilding from '../icons/IconBuilding'
 
 export default function experiencesTab() {

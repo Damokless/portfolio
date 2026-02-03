@@ -1,4 +1,4 @@
-import education from '../../data/education_data.json'
+import education from '../data/education_data.json'
 
 export default function EducationTab() {
   return (

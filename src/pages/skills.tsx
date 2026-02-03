@@ -1,9 +1,10 @@
-import SpotlightCard from '../spotlight_card'
-import skills from './skills_data.json'
+import SpotlightCard from '../components/spotlight_card'
+import skills from '../data/skills_data.json'
 import { Image, Tooltip } from '@heroui/react'
 export default function SkillsGrid() {
 
   return (
+    <div className="dark:bg-default-100/65 bg-default-100 bg-clip-padding px-12 md:px-24 py-12 flex flex-col gap-16">
     <div className=" grid md:grid-cols-2 md:grid-rows-2 md:gap-12 gap-6">
       <div className="flex flex-col justify-center items-center">
         LANGUAGES
@@ -53,6 +54,7 @@ export default function SkillsGrid() {
             ))}
         </SpotlightCard>
       </div>
+    </div>
     </div>
   )
 }

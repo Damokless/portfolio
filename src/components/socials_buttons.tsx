@@ -1,8 +1,8 @@
 import { Button, Tooltip, Link } from '@heroui/react'
-import IconLinkedin from './icons/IconLinkedin'
-import IconGithub from './icons/IconGithub'
-import IconDiscord from './icons/IconDiscord'
-import IconFile from './icons/IconFile'
+import IconLinkedin from '../icons/IconLinkedin'
+import IconGithub from '../icons/IconGithub'
+import IconDiscord from '../icons/IconDiscord'
+import IconFile from '../icons/IconFile'
 
 export default function SocialsButtons() {
   return (

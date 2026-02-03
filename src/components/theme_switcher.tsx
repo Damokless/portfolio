@@ -1,6 +1,6 @@
 import {useTheme} from "@heroui/use-theme";
-import IconSun from "./icons/IconSun";
-import IconMoon from "./icons/IconMoon";
+import IconSun from "../icons/IconSun";
+import IconMoon from "../icons/IconMoon";
 import { Button } from "@heroui/react";
 
 export default function ThemeSwitcher() {
