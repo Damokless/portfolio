@@ -1,7 +1,6 @@
 import { Button, Link, Image, Card, } from '@heroui/react'
 import IconMail from '../icons/IconMail'
 import IconCalendar from '../icons/IconCalendar'
-import SkillsGrid from './skills'
 import SocialsButtons from '../components/socials_buttons'
 
 export default function Home() {
@@ -65,9 +64,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-      </div>
-      <div className="dark:bg-default-100/65 bg-default-100 bg-clip-padding px-12 md:px-24 py-12 flex flex-col gap-16">
-        <SkillsGrid />
       </div>
     </div>
   )
