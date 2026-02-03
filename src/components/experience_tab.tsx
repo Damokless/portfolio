@@ -4,7 +4,7 @@ import IconBuilding from '../icons/IconBuilding'
 
 export default function experiencesTab() {
   return (
-    <ul role="list" className="m-8 max-w-3xl">
+    <ul role="list" className="m-8 max-w-3xl justify-center items-center w-full">
       {experiences.map((company, index) => (
         <li key={index} className="group relative flex flex-col py-4 pl-14 last:pb-0">
           <div className="absolute bottom-0 left-[calc(1.5rem-0.5px)] top-0 w-px bg-default-400 group-first:top-3"></div>
@@ -14,7 +14,7 @@ export default function experiencesTab() {
           <h3 className="font-display text-2xs/6 order-first font-semibold bg-linear-to-r from-[#DE89FF] from-5% to-[#BC13FE] to-100% bg-clip-text text-transparent">{company.name}</h3>
           {company.experiences.map((experience, index) => (
             <div key={index} className="flex flex-col">
-              <Accordion isCompact>
+              <Accordion variant="light" isCompact>
                 <AccordionItem key={experience.role} aria-label={experience.role} title={experience.role} subtitle={`${experience.start} - ${experience.end} | ${experience.employment_type}`}>
                   {experience.description}
                   <span className='hidden' aria-hidden>{experience.seo_sea_focus}</span>
