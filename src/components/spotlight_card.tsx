@@ -11,9 +11,9 @@ export default function SpotlightCard({ children }: { children: React.ReactNode 
         setPos({ x: e.clientX - r.left, y: e.clientY - r.top });
       }}
       onMouseLeave={() => setPos({ x: -9999, y: -9999 })}
-      className="relative md:w-2/3 w-full"
+      className="relative w-full h-full"
     >
-      <Card isBlurred className="border border-gray-600/65 hover:border-[#BC13FE]/50 bg-transparent overflow-hidden">
+      <Card isBlurred className="border border-gray-600/65 hover:border-[#BC13FE]/50 bg-transparent overflow-hidden h-full">
         <div
           className="pointer-events-none absolute inset-0 transition-opacity duration-150"
           style={{

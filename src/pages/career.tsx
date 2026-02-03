@@ -4,7 +4,7 @@ import ExperienceTab from "../components/experience_tab";
 
 export default function Career() {
   return (
-    <div className="dark:bg-default-100/65 bg-default-100 bg-clip-padding px-12 md:px-24 py-12 flex flex-col gap-16 w-full">
+    <div className="dark:bg-default-100/65 bg-default-100 bg-clip-padding px-12 md:px-24 py-12 flex flex-col gap-16 w-full" id="career">
       <div className="flex flex-col justify-center items-center">
         <Card className=" w-3/4">
           <CardBody className="overflow-hidden">
