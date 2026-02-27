@@ -3,7 +3,7 @@ import type { ReactElement } from "react"
 
 export default function Header(): ReactElement {
     return (
-        <header>
+        <header className="bg-transparent sticky top-0 z-10">
             <Navbar className=" bg-transparent" isBlurred={true} isBordered={true} maxWidth="2xl">
                 <NavbarBrand>
                     <p className="font-bold text-inherit">DAMOKLES</p>
