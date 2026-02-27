@@ -1,10 +1,10 @@
 import { Button, Link } from "@heroui/react"
 import type { ReactElement } from "react"
-import IconCalendar from "../icons/IconCalendar.tsx"
-import IconMail from "../icons/IconMail.tsx"
+import IconCalendar from "../assets/icons/IconCalendar.tsx"
+import IconMail from "../assets/icons/IconMail.tsx"
 export default function Home(): ReactElement {
     return (
-        <div className="absolute inset-0 z-0 h-svh flex flex-1 flex-col bg-[#0a0c10]">
+        <div className="z-0 h-svh flex flex-1 flex-col bg-[#0a0c10]">
             <div className="absolute inset-0 opacity-20">
                 <div className="absolute top-1/4 left-1/4 w-105 h-105 bg-[#bc13fe] rounded-full blur-[120px]" />
                 <div className="absolute bottom-1/4 right-1/4 w-105 h-105 bg-[#bc13fe] rounded-full blur-[120px]" />
