@@ -3,7 +3,7 @@ import Avatar from "../assets/images/me.webp"
 
 export default function About(): ReactElement {
     return (
-        <div className="py-24 px-6 border-t border-slate-200/5" id="career">
+        <div className="py-24 px-6 border-t border-slate-200/5" id="about">
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>

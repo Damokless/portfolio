@@ -15,12 +15,12 @@ export default function Header(): ReactElement {
                         <Link
                             className="hover:text-[#bc13fe] transition-colors"
                             color="foreground"
-                            href="#">
+                            href="#about">
                             About
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link color="foreground" href="#">
+                        <Link color="foreground" href="#career">
                             Career
                         </Link>
                     </NavbarItem>
