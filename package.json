@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@heroui/react": "^2.8.9",
+    "@tabler/icons-react": "^3.37.1",
     "@tailwindcss/vite": "^4.2.1",
     "framer-motion": "^12.34.3",
     "react": "^19.2.0",

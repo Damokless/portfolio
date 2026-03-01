@@ -1,7 +1,6 @@
 import { Button, Link } from "@heroui/react"
+import { IconCalendarWeek, IconMail } from "@tabler/icons-react"
 import type { ReactElement } from "react"
-import IconCalendar from "../assets/icons/IconCalendar.tsx"
-import IconMail from "../assets/icons/IconMail.tsx"
 export default function Home(): ReactElement {
     return (
         <div className="z-0 h-svh flex flex-1 flex-col bg-[#0a0c10]">
@@ -30,7 +29,7 @@ export default function Home(): ReactElement {
                                 radius="sm"
                                 size="sm"
                                 startContent={
-                                    <IconMail height={24} stroke="currentColor" width={24} />
+                                    <IconMail height={24} stroke={1} width={24} />
                                 }
                                 target="_blank"
                                 variant="ghost">
@@ -43,7 +42,7 @@ export default function Home(): ReactElement {
                                 radius="sm"
                                 size="sm"
                                 startContent={
-                                    <IconCalendar height={24} stroke="currentColor" width={24} />
+                                    <IconCalendarWeek height={24} stroke={1} width={24} />
                                 }
                                 target="_blank"
                                 variant="ghost">
