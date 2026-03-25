@@ -7,11 +7,11 @@ export default function About(): ReactElement {
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>
-                        <div className="mb-12">
-                            <h2 className="text-xs font-bold text-[#DE89FF] uppercase tracking-[0.4em] mb-4">
+                        <div className="mb-8">
+                            <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
                               About me
                             </h2>
-                            <h3 className="text-4xl font-bold dark:text-white mb-8">
+                            <h3 className="text-sm font-bold dark:text-white mb-8">
                                 Passionate about solving complex problems.
                             </h3>
                         </div>
