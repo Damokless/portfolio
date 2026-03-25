@@ -220,7 +220,8 @@
                 "useHookAtTopLevel": "error",
                 "useImageSize": "error",
                 "useImportExtensions": "error",
-                "useJsxKeyInIterable": "error"
+                "useJsxKeyInIterable": "error",
+                "useUniqueElementIds": "off"
             },
             "nursery": {
                 "noDuplicateAttributes": "error",
@@ -232,7 +233,7 @@
                 "useAwaitThenable": "error",
                 "useConsistentEnumValueType": "error",
                 "useExhaustiveSwitchCases": "warn",
-                "useExplicitType": "warn"
+                "useExplicitType": "off"
             },
             "performance": {
                 "noAccumulatingSpread": "error",
