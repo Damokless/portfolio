@@ -1,7 +1,7 @@
-import { Button, Link } from "@heroui/react"
+import { Link } from "@heroui/react"
 import { IconCalendarWeek, IconMail } from "@tabler/icons-react"
-import type { ReactElement } from "react"
-export default function Home(): ReactElement {
+
+export default function Home() {
     return (
         <div className="z-0 h-svh flex flex-1 flex-col bg-[#0a0c10]">
             <div className="absolute inset-0 opacity-20">
@@ -23,31 +23,25 @@ export default function Home(): ReactElement {
                     </div>
                     <div className="w-fit flex flex-col gap-4 self-center">
                         <div className="flex flex-row h-full w-fit p-1 items-center justify-center gap-2">
-                            <Button
-                                as={Link}
+                            <Link
                                 href="mailto:bouzon.alexandre@gmail.com"
-                                radius="sm"
-                                size="sm"
-                                startContent={
-                                    <IconMail height={24} stroke={1} width={24} />
-                                }
-                                target="_blank"
-                                variant="ghost">
+                                rel="noopener noreferrer"
+                                target="_blank">
+                                <Link.Icon className=" size-6">
+                                    <IconMail />
+                                </Link.Icon>
                                 Contact Me
-                            </Button>
+                            </Link>
                             <div className=" w-1 h-1 bg-white rounded-full" />
-                            <Button
-                                as={Link}
+                            <Link
                                 href="https://cal.com/damokles/rdvvisio"
-                                radius="sm"
-                                size="sm"
-                                startContent={
-                                    <IconCalendarWeek height={24} stroke={1} width={24} />
-                                }
-                                target="_blank"
-                                variant="ghost">
+                                rel="noopener noreferrer"
+                                target="_blank">
+                                <Link.Icon className=" size-6">
+                                    <IconCalendarWeek />
+                                </Link.Icon>
                                 Book A Call
-                            </Button>
+                            </Link>
                         </div>
                     </div>
                 </div>
