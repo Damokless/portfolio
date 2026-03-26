@@ -9,7 +9,7 @@ export default function About(): ReactElement {
                     <div>
                         <div className="mb-8">
                             <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
-                              About me
+                                About me
                             </h2>
                             <h3 className="text-sm font-bold dark:text-white mb-8">
                                 Passionate about solving complex problems.
@@ -36,7 +36,8 @@ export default function About(): ReactElement {
                                 alt="Damokles profile"
                                 className="relative rounded-2xl border-2 border-[#bc13fe]/20 shadow-2xl"
                                 height={400}
-                                src={Avatar}
+                                loading="lazy"
+                                src="https://res.cloudinary.com/do18ebswp/image/upload/me_dn185a.webp"
                                 width={250}
                             />
                         </div>
