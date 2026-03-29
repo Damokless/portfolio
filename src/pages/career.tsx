@@ -1,4 +1,5 @@
 import { Tabs } from "@heroui/react"
+import { IconBriefcase, IconSchool } from "@tabler/icons-react"
 import education from "../assets/data/education.json"
 import work from "../assets/data/work.json"
 
@@ -17,12 +18,14 @@ export default function Career() {
                 <div className="flex justify-center items-center w-full">
                     <Tabs className="w-full " variant="secondary">
                         <Tabs.ListContainer>
-                            <Tabs.List aria-label="Options">
-                                <Tabs.Tab id="work">
+                            <Tabs.List aria-label="career tabs">
+                                <Tabs.Tab className=" flex gap-2" id="work">
+                                    <IconBriefcase size={24} stroke={1} />
                                     Work Experience
                                     <Tabs.Indicator className=" bg-[#DE89FF]" />
                                 </Tabs.Tab>
-                                <Tabs.Tab id="education">
+                                <Tabs.Tab className=" flex gap-2" id="education">
+                                    <IconSchool size={24} stroke={1} />
                                     Education
                                     <Tabs.Indicator className=" bg-[#DE89FF]" />
                                 </Tabs.Tab>
