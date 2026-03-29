@@ -1,0 +1,123 @@
+[
+    {
+        "duration": "Février 2024 - Présent",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/disneylandparis_ij5hue.webp",
+        "name": "Disneyland Paris",
+        "positions": [
+            {
+                "contract": "CDI",
+                "end": "Présent",
+                "position": "Conseiller Clientèle",
+                "start": "Mars 2026"
+            },
+            {
+                "contract": "CDD",
+                "end": "Mars 2026",
+                "position": "Conseiller Clientèle",
+                "start": "Novembre 2025"
+            },
+            {
+                "contract": "CDI",
+                "end": "Novembre 2025",
+                "position": "Opérateur/Animateur Attractions",
+                "start": "Février 2024"
+            }
+        ]
+    },
+    {
+        "duration": "2024 - Présent",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/damokles_hxg0rv.webp",
+        "name": "Freelance",
+        "positions": [
+            {
+                "contract": "Freelance",
+                "end": "Présent",
+                "position": "Développeur fullstack",
+                "start": "décembre 2024"
+            }
+        ]
+    },
+    {
+        "duration": "Déc 2022 - Oct 2023",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/eatseazy_bu3pqt.webp",
+        "name": "Eats Eazy",
+        "positions": [
+            {
+                "contract": "CDI",
+                "end": "Octobre 2023",
+                "position": "Développeur fullstack",
+                "start": "Décembre 2022"
+            }
+        ]
+    },
+    {
+        "duration": "Octobre 2021 - Octobre 2022",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/lightkitchen_e9ioot.webp",
+        "name": "Light Kitchen",
+        "positions": [
+            {
+                "contract": "CDI",
+                "end": "Octobre 2022",
+                "position": "Développeur fullstack",
+                "start": "Octobre 2021"
+            }
+        ]
+    },
+    {
+        "duration": "Février 2021 - Septembre 2021",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/caseware_cum9cd.webp",
+        "name": "Caseware France",
+        "positions": [
+            {
+                "contract": "CDI",
+                "end": "Septembre 2021",
+                "position": "Développeur frontend",
+                "start": "Février 2021"
+            }
+        ]
+    },
+    {
+        "duration": "",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/v1774557313/sncf_gaphna.webp",
+        "name": "SNCF",
+        "positions": [
+            {
+                "contract": "Stage",
+                "end": "Décembre 2017",
+                "position": "Technicien d'assistance et de maintenance informatique",
+                "start": "Février 2018"
+            },
+            {
+                "contract": "Stage",
+                "end": "Mai 2017",
+                "position": "Technicien d'assistance et de maintenance informatique",
+                "start": "Mars 2017"
+            }
+        ]
+    },
+    {
+        "duration": "",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/elogie-siemp_xk8nip.webp",
+        "name": "élogie-Siemp",
+        "positions": [
+            {
+                "contract": "Stage",
+                "end": "janvier 2020",
+                "position": "Administrateur Systèmes et Réseaux",
+                "start": "décembre 2020"
+            },
+            {
+                "contract": "Stage",
+                "end": "Juin 2019",
+                "position": "Administrateur Systèmes et Réseaux",
+                "start": "Mai 2019"
+            },
+            {
+                "contract": "Stage",
+                "end": "Juin 2015",
+                "position": "Assistance utilisateurs en Informatique",
+                "start": "Mai 2015"
+            }
+        ]
+    }
+]
