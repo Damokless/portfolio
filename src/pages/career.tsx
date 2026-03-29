@@ -31,8 +31,8 @@ export default function Career() {
                         <Tabs.Panel className="pt-8" id="work">
                             <div className="relative pl-8 border-l border-primary/20 space-y-16 max-w-2xl mx-auto">
                                 {work.map((company) => (
-                                    <div className="relative" key={company.name}>
-                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full bg-primary/40 border-4 border-background-dark" />
+                                    <div className="relative group" key={company.name}>
+                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full bg-[#2c2829] group-hover:bg-[#bc13fe] group-hover:border-[#bc13fe] border-4" />
                                         <span className="text-xs font-bold text-slate-500 uppercase tracking-widest block mb-1">
                                             {company.duration}
                                         </span>
