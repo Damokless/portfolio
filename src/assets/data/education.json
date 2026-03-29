@@ -1,0 +1,30 @@
+[
+    {
+        "degree": "Mastère Dev Manager Fullstack - RNCP 7",
+        "end": "2023",
+        "institution": "EFREI Paris",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/efrei_jogg2b.webp",
+        "start": "2021"
+    },
+    {
+        "degree": "Bachelor concepteur développeur global programming",
+        "end": "2021",
+        "institution": "EFREI Paris",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/efrei_jogg2b.webp",
+        "start": "2020"
+    },
+    {
+        "degree": "BTS SIO",
+        "end": "2022",
+        "institution": "Lycée et Pôle Supérieur Turgot",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/turgot_aioyeb.webp",
+        "start": "2020"
+    },
+    {
+        "degree": "BAC Pro S.E.N",
+        "end": "2018",
+        "institution": "Lycée professionel Galilée",
+        "logo": "https://res.cloudinary.com/do18ebswp/image/upload/logo_galilee_yxw7tb.webp",
+        "start": "2015"
+    }
+]
