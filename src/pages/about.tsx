@@ -1,5 +1,4 @@
 import type { ReactElement } from "react"
-import Avatar from "../assets/images/me.webp"
 
 export default function About(): ReactElement {
     return (
