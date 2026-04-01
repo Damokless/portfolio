@@ -15,6 +15,9 @@
     "@heroui/styles": "^3.0.1",
     "@tabler/icons-react": "^3.40.0",
     "@tailwindcss/vite": "^4.2.2",
+    "add": "^2.0.6",
+    "embla-carousel-auto-scroll": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "tailwindcss": "^4.2.2"

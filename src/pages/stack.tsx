@@ -1,9 +1,17 @@
 import { Card } from "@heroui/react"
-import { IconCloud, IconCode, IconDatabase, IconDeviceDesktopCode, IconStackBack, IconStackFront } from "@tabler/icons-react"
+import {
+    IconCloud,
+    IconCode,
+    IconDatabase,
+    IconDeviceDesktopCode,
+    IconStackBack,
+    IconStackFront
+} from "@tabler/icons-react"
+import Carousel from "../components/carousel.tsx"
 
 export default function Stack() {
     return (
-        <div className="py-24 px-6" id="stack">
+        <div className="py-24 px-6 space-y-12" id="stack">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-8">
                     <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
@@ -27,9 +35,7 @@ export default function Stack() {
                                     Languages
                                 </h4>
                             </Card.Title>
-                            <Card.Description>
-                                my languages
-                            </Card.Description>
+                            <Card.Description>my languages</Card.Description>
                         </Card.Header>
                     </Card>
                     <Card className="h-82.5 col-span-4 rounded-lg">
@@ -40,9 +46,7 @@ export default function Stack() {
                                     Cloud
                                 </h4>
                             </Card.Title>
-                            <Card.Description>
-                              cloud i use
-                            </Card.Description>
+                            <Card.Description>cloud i use</Card.Description>
                         </Card.Header>
                     </Card>
                     <Card className="h-82.5 col-span-4 rounded-lg">
@@ -53,9 +57,7 @@ export default function Stack() {
                                     Frontend
                                 </h4>
                             </Card.Title>
-                            <Card.Description>
-                              frameworks i use
-                            </Card.Description>
+                            <Card.Description>frameworks i use</Card.Description>
                         </Card.Header>
                     </Card>
                     <Card className="h-82.5 col-span-4 rounded-lg">
@@ -66,9 +68,7 @@ export default function Stack() {
                                     Backend
                                 </h4>
                             </Card.Title>
-                            <Card.Description>
-                              stack that i use
-                            </Card.Description>
+                            <Card.Description>stack that i use</Card.Description>
                         </Card.Header>
                     </Card>
                     <Card className="h-82.5 col-span-4 rounded-lg">
@@ -76,12 +76,10 @@ export default function Stack() {
                             <Card.Title className="flex gap-3 items-center">
                                 <IconDatabase stroke={1} />
                                 <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                  Databases
+                                    Databases
                                 </h4>
                             </Card.Title>
-                            <Card.Description>
-                              how i store my data
-                            </Card.Description>
+                            <Card.Description>how i store my data</Card.Description>
                         </Card.Header>
                     </Card>
                     <Card className="h-82.5 col-span-12 rounded-lg">
@@ -89,15 +87,18 @@ export default function Stack() {
                             <Card.Title className="flex gap-3 items-center">
                                 <IconDeviceDesktopCode stroke={1} />
                                 <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                  Admin Sys & Network
+                                    Admin Sys & Network
                                 </h4>
                             </Card.Title>
                             <Card.Description>
-                              Some other stuff related to computers
+                                Some other stuff related to computers
                             </Card.Description>
                         </Card.Header>
                     </Card>
                 </div>
+            </div>
+            <div>
+                <Carousel />
             </div>
         </div>
     )

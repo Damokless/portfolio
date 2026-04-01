@@ -1,0 +1,86 @@
+[
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg",
+        "name": "Bash"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/biome/biome-original.svg",
+        "name": "Biome"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg",
+        "name": "Bun"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg",
+        "name": "Dbeaver"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg",
+        "name": "eslint"
+    },
+    {
+        "icon": "https://raw.githubusercontent.com/prettier/prettier-logo/refs/heads/master/images/prettier-icon-dark.svg",
+        "name": "Prettier"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+        "name": "Figma"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        "name": "Git"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+        "name": "Github"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitkraken/gitkraken-original.svg",
+        "name": "Gitkraken"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg",
+        "name": "Gitlab"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg",
+        "name": "Insomnia"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodemon/nodemon-original.svg",
+        "name": "Nodemon"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg",
+        "name": "NPM"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pnpm/pnpm-original.svg",
+        "name": "PNPM"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+        "name": "Postman"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/putty/putty-original.svg",
+        "name": "PuTTY"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+        "name": "Vitejs"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+        "name": "VS Code"
+    },
+    {
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yarn/yarn-original.svg",
+        "name": "Yarn"
+    },
+    {
+        "icon": "https://res.cloudinary.com/do18ebswp/image/upload/v1774895700/zed-logo_jmht3f.svg",
+        "name": "Zed"
+    }
+]
