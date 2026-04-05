@@ -1,5 +1,5 @@
 import { Link } from "@heroui/react"
-import { IconCalendarWeek, IconMail } from "@tabler/icons-react"
+import { IconCalendarWeek, IconChevronDown, IconMail } from "@tabler/icons-react"
 
 export default function Home() {
     return (
@@ -43,7 +43,10 @@ export default function Home() {
                                 Book A Call
                             </Link>
                         </div>
-                    </div>
+            </div>
+            <div className="pt-12 flex gap-6 justify-center">
+            <span className="text-primary text-4xl animate-bounce"><IconChevronDown /></span>
+            </div>
                 </div>
             </div>
         </div>
