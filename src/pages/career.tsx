@@ -45,12 +45,11 @@ export default function Career() {
                                         {company.positions.length === 1 && (
                                             <>
                                                 <p className="text-lg font-bold text-slate-800 dark:text-slate-200 mb-2">
-                                                    Software Developer
+                                                  {company.positions[0].position} -{" "}
+                                                  {company.positions[0].contract}
                                                 </p>
                                                 <p className="text-base text-slate-500 dark:text-slate-400 font-light leading-relaxed">
-                                                    Digitalizing internal workflows and urban social
-                                                    housing data management systems with focus on
-                                                    React/Node stacks.
+                                                    {company.positions[0].description}
                                                 </p>
                                             </>
                                         )}
@@ -67,10 +66,7 @@ export default function Career() {
                                                             {experience.contract}
                                                         </p>
                                                         <p className="text-base text-slate-500 dark:text-slate-400 font-light mt-2 leading-relaxed">
-                                                            Leading architectural decisions for
-                                                            critical network management tools,
-                                                            ensuring 99.9% reliability and
-                                                            pixel-perfect interfaces.
+                                                            {experience.description}
                                                         </p>
                                                     </div>
                                                 ))}
@@ -95,9 +91,7 @@ export default function Career() {
                                             {school.degree}
                                         </p>
                                         <p className="text-base text-slate-500 dark:text-slate-400 font-light leading-relaxed">
-                                            Specialization in Distributed Systems and Web
-                                            Technologies. High honors graduate with focus on
-                                            high-performance architecture.
+                                            {school.description}
                                         </p>
                                     </div>
                                 ))}

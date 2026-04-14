@@ -1,6 +1,7 @@
 [
     {
         "degree": "Mastère Dev Manager Fullstack - RNCP 7",
+        "description": "Advanced fullstack software engineering and technical leadership program covering scalable application architecture, TypeScript/JavaScript ecosystems, DevOps (CI/CD, Docker), cloud computing and agile project management.",
         "end": "2023",
         "institution": "EFREI Paris",
         "logo": "https://res.cloudinary.com/do18ebswp/image/upload/efrei_jogg2b.webp",
@@ -8,6 +9,7 @@
     },
     {
         "degree": "Bachelor concepteur développeur global programming",
+        "description": "Fullstack development training focused on modern web technologies (JavaScript, React, Node.js), software design patterns, API development and database management (SQL/NoSQL).",
         "end": "2021",
         "institution": "EFREI Paris",
         "logo": "https://res.cloudinary.com/do18ebswp/image/upload/efrei_jogg2b.webp",
@@ -15,6 +17,7 @@
     },
     {
         "degree": "BTS SIO",
+        "description": "IT services and systems training covering software development, system administration, networking, cybersecurity fundamentals and enterprise infrastructure management.",
         "end": "2022",
         "institution": "Lycée et Pôle Supérieur Turgot",
         "logo": "https://res.cloudinary.com/do18ebswp/image/upload/turgot_aioyeb.webp",
@@ -22,6 +25,7 @@
     },
     {
         "degree": "BAC Pro S.E.N",
+        "description": "Technical training in electronics and digital systems including computer hardware, networking, telecommunications and IT infrastructure fundamentals.",
         "end": "2018",
         "institution": "Lycée professionel Galilée",
         "logo": "https://res.cloudinary.com/do18ebswp/image/upload/logo_galilee_yxw7tb.webp",

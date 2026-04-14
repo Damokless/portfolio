@@ -6,18 +6,21 @@
         "positions": [
             {
                 "contract": "CDI",
+                "description": "Delivering high-quality customer support in a fast-paced international environment, focusing on user experience, issue resolution and service optimization.",
                 "end": "Présent",
                 "position": "Conseiller Clientèle",
                 "start": "Mars 2026"
             },
             {
                 "contract": "CDD",
+                "description": "Managing customer interactions and problem-solving workflows in high-volume environments with a strong focus on satisfaction, efficiency and communication.",
                 "end": "Mars 2026",
                 "position": "Conseiller Clientèle",
                 "start": "Novembre 2025"
             },
             {
                 "contract": "CDI",
+                "description": "Operating large-scale attractions with strict safety protocols while delivering immersive customer experiences and real-time incident management.",
                 "end": "Novembre 2025",
                 "position": "Opérateur/Animateur Attractions",
                 "start": "Février 2024"
@@ -31,6 +34,7 @@
         "positions": [
             {
                 "contract": "Freelance",
+                "description": "Building scalable fullstack web applications (SaaS, dashboards, APIs) using TypeScript, Node.js, React, Next.js with cloud deployment, SEO optimization and performance tuning.",
                 "end": "Présent",
                 "position": "Développeur fullstack",
                 "start": "décembre 2024"
@@ -44,6 +48,7 @@
         "positions": [
             {
                 "contract": "CDI",
+                "description": "Developed high-performance web applications with React, Next.js and Node.js, including API optimization, Stripe payment integration and scalable backend architecture.",
                 "end": "Octobre 2023",
                 "position": "Développeur fullstack",
                 "start": "Décembre 2022"
@@ -57,6 +62,7 @@
         "positions": [
             {
                 "contract": "CDI",
+                "description": "Designed and developed data-driven fullstack applications using React and Node.js, focusing on API performance, database optimization and Docker-based CI/CD workflows.",
                 "end": "Octobre 2022",
                 "position": "Développeur fullstack",
                 "start": "Octobre 2021"
@@ -70,6 +76,7 @@
         "positions": [
             {
                 "contract": "CDI",
+                "description": "Built enterprise-grade frontend applications with advanced JavaScript, improving UX, performance and scalability for financial audit platforms.",
                 "end": "Septembre 2021",
                 "position": "Développeur frontend",
                 "start": "Février 2021"
@@ -83,12 +90,14 @@
         "positions": [
             {
                 "contract": "Stage",
+                "description": "Provided IT support and system maintenance across enterprise environments, including troubleshooting, user management and infrastructure monitoring.",
                 "end": "Décembre 2017",
                 "position": "Technicien d'assistance et de maintenance informatique",
                 "start": "Février 2018"
             },
             {
                 "contract": "Stage",
+                "description": "Handled technical support, hardware/software maintenance and participated in network and system administration tasks in production environments.",
                 "end": "Mai 2017",
                 "position": "Technicien d'assistance et de maintenance informatique",
                 "start": "Mars 2017"
@@ -102,18 +111,21 @@
         "positions": [
             {
                 "contract": "Stage",
+                "description": "Administered systems and networks including server deployment, virtualization, monitoring tools and infrastructure security in enterprise environments.",
                 "end": "janvier 2020",
                 "position": "Administrateur Systèmes et Réseaux",
                 "start": "décembre 2020"
             },
             {
                 "contract": "Stage",
+                "description": "Configured and maintained network infrastructure (VLAN, servers, virtualization) with focus on performance, monitoring and system reliability.",
                 "end": "Juin 2019",
                 "position": "Administrateur Systèmes et Réseaux",
                 "start": "Mai 2019"
             },
             {
                 "contract": "Stage",
+                "description": "Delivered user support and IT troubleshooting while assisting in system administration, network setup and technical documentation.",
                 "end": "Juin 2015",
                 "position": "Assistance utilisateurs en Informatique",
                 "start": "Mai 2015"
