@@ -4,7 +4,9 @@ import useEmblaCarousel from "embla-carousel-react"
 import tools from "../assets/data/tools.json"
 
 export default function Carousel() {
-    const [emblaRef] = useEmblaCarousel({ loop: true }, [ AutoScroll({ speed: 0.55, startDelay: 0 }) ])
+    const [emblaRef] = useEmblaCarousel({ dragFree: true, loop: true }, [
+        AutoScroll({ speed: 0.55, startDelay: 100, stopOnFocusIn: false, stopOnInteraction: false })
+    ])
 
     return (
         <div>
