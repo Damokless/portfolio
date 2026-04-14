@@ -7,6 +7,7 @@ import Career from "./pages/career.tsx"
 import Certifications from "./pages/certifications.tsx"
 import Home from "./pages/home.tsx"
 import Stack from "./pages/stack.tsx"
+import Socials from "./pages/socials.tsx"
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
@@ -16,5 +17,6 @@ createRoot(document.getElementById("root")!).render(
         <Career />
         <Stack />
         <Certifications />
+        <Socials />
     </StrictMode>
 )
