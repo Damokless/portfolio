@@ -13,7 +13,7 @@ export default function Certifications() {
                         Collecting new skills and masteries like Pokémon Gym Badges.
                     </h3>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 ">
                     {certifications.map((certification) => (
                         <Card
                             className="group p-6 rounded-xl flex flex-col items-center text-center hover:border-[#bc13fe66] hover:shadow-[0_0_30px_-10px_rgba(188,19,254,0.2)] hover:bg-[#bc13fe0d] border transition"
