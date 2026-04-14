@@ -1,4 +1,4 @@
-import { Link } from "@heroui/react"
+import { Button, Link } from "@heroui/react"
 import { IconCalendarWeek, IconChevronDown, IconMail } from "@tabler/icons-react"
 
 export default function Home() {
@@ -24,29 +24,37 @@ export default function Home() {
                     <div className="w-fit flex flex-col gap-4 self-center">
                         <div className="flex flex-row h-full w-fit p-1 items-center justify-center gap-2">
                             <Link
+                                className="no-underline"
                                 href="mailto:bouzon.alexandre@gmail.com"
                                 rel="noopener noreferrer"
                                 target="_blank">
-                                <Link.Icon className=" size-6">
-                                    <IconMail />
-                                </Link.Icon>
-                                Contact Me
+                                  <Button
+                                      className=" text-foreground hover:bg-[#27272a]"
+                                      variant="outline">
+                                      <IconMail className=" size-6" stroke={1} />
+                                      Contact Me
+                                  </Button>
                             </Link>
                             <div className=" w-1 h-1 bg-white rounded-full" />
                             <Link
+                                className="no-underline"
                                 href="https://cal.com/damokles/rdvvisio"
                                 rel="noopener noreferrer"
                                 target="_blank">
-                                <Link.Icon className=" size-6">
-                                    <IconCalendarWeek />
-                                </Link.Icon>
-                                Book A Call
+                                <Button
+                                    className=" text-foreground hover:bg-[#27272a]"
+                                    variant="outline">
+                                    <IconCalendarWeek className=" size-6" stroke={1} />
+                                    Book A Call
+                                </Button>
                             </Link>
                         </div>
-            </div>
-            <div className="pt-12 flex gap-6 justify-center">
-            <span className="text-primary text-4xl animate-bounce"><IconChevronDown /></span>
-            </div>
+                    </div>
+                    <div className="pt-12 flex gap-6 justify-center">
+                        <span className="text-primary text-4xl animate-bounce">
+                            <IconChevronDown />
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
