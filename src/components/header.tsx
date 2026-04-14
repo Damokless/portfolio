@@ -43,40 +43,56 @@ export default function Header() {
                 </div>
                 <ul className="hidden items-center gap-4 md:flex">
                     <li>
-                        <Link href="#">Features</Link>
-                    </li>
-                    <li>
-                        <Link aria-current="page" className="font-medium text-accent" href="#">
-                            Dashboard
+                        <Link className="no-underline" href="#">
+                            About
                         </Link>
                     </li>
                     <li>
-                        <Link href="#">Pricing</Link>
+                        <Link className="no-underline" href="#">
+                            Career
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="no-underline" href="#">
+                            Stack
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className="no-underline" href="#">
+                            Certifications
+                        </Link>
                     </li>
                 </ul>
                 <div className="hidden items-center gap-4 md:flex">
-                    <Link href="#">Login</Link>
+                    <Link className="no-underline" href="#">
+                        Login
+                    </Link>
                     <Button>Sign Up</Button>
                 </div>
             </header>
             {!!isMenuOpen && (
                 <div className="border-t border-separator md:hidden">
                     <ul className="flex flex-col gap-2 p-4">
-                        <li>
-                            <Link className="block py-2" href="#">
-                                Features
-                            </Link>
-                        </li>
-                        <li>
-                            <Link className="block py-2 font-medium text-accent" href="#">
-                                Dashboard
-                            </Link>
-                        </li>
-                        <li>
-                            <Link className="block py-2" href="#">
-                                Pricing
-                            </Link>
-                        </li>
+                      <li>
+                          <Link className="no-underline block py-2" href="#">
+                              About
+                          </Link>
+                      </li>
+                      <li>
+                          <Link className="no-underline block py-2" href="#">
+                              Career
+                          </Link>
+                      </li>
+                      <li>
+                          <Link className="no-underline block py-2" href="#">
+                              Stack
+                          </Link>
+                      </li>
+                      <li>
+                          <Link className="no-underline block py-2" href="#">
+                              Certifications
+                          </Link>
+                      </li>
                         <li className="mt-4 flex flex-col gap-2 border-t border-separator pt-4">
                             <Link className="block py-2" href="#">
                                 Login
