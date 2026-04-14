@@ -11,7 +11,7 @@ export default function About(): ReactElement {
                                 About me
                             </h2>
                             <h3 className="text-sm font-bold dark:text-white mb-8">
-                                Passionate about solving complex problems.
+                                Let's see how deep the rabbit hole goes.
                             </h3>
                         </div>
                         <div className="space-y-6">
