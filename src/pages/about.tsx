@@ -16,15 +16,36 @@ export default function About(): ReactElement {
                         </div>
                         <div className="space-y-6">
                             <p className="text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
-                                My journey as a developer is driven by a deep-seated curiosity about
-                                how things work. From my early days in engineering school to leading
-                                architectural decisions for major infrastructure projects, I've
-                                always been fascinated by the intersection of complex logic and
-                                intuitive design.
+                                I'm a Fullstack JavaScript Developer specialized in building
+                                high-performance, scalable and production-ready web applications.
+                                With a strong focus on{" "}
+                                <strong>TypeScript, Node.js, React and Next.js</strong>, I design
+                                and develop modern digital products that combine clean architecture,
+                                optimized performance and intuitive user experience.
                             </p>
+
                             <p className="text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
-                                Specializing in the modern JavaScript ecosystem, I thrive on the
-                                challenge of building scalable products from the ground up.
+                                From MVP development to complex platforms, I help businesses turn
+                                ideas into robust and maintainable solutions. My approach blends{" "}
+                                <strong>software engineering best practices</strong>,
+                                <strong>SEO optimization</strong>, and{" "}
+                                <strong>performance-driven development</strong> to deliver fast,
+                                scalable and user-centric applications.
+                            </p>
+
+                            <p className="text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
+                                Beyond frontend and backend development, I bring a strong background
+                                in <strong>system administration, networking and DevOps</strong>.
+                                This allows me to manage projects end-to-end, from infrastructure
+                                design to deployment and monitoring.
+                            </p>
+
+                            <p className="text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
+                                Passionate about technology, performance optimization and continuous
+                                learning, I constantly explore new tools, frameworks and
+                                architectures to stay ahead of the curve. Whether it's improving
+                                load times, scaling an API or refining UX, I always aim for
+                                excellence and efficiency.
                             </p>
                         </div>
                     </div>
