@@ -35,7 +35,7 @@ export default function Career() {
                             <div className="relative pl-8 border-l border-primary/20 space-y-16 max-w-2xl mx-auto">
                                 {work.map((company) => (
                                     <div className="relative group" key={company.name}>
-                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full bg-[#2c2829] group-hover:bg-[#bc13fe] group-hover:border-[#bc13fe] border-4" />
+                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full bg-[#2c2829] group-hover:bg-[#bc13fe] group-hover:border-[#bc13fe] group-hover:shadow-[0_0_8px_#bc13fe] border-4" />
                                         <span className="text-xs font-bold text-slate-500 uppercase tracking-widest block mb-1">
                                             {company.duration}
                                         </span>
@@ -84,7 +84,7 @@ export default function Career() {
                             <div className="relative pl-8 border-l border-primary/20 space-y-16 max-w-2xl mx-auto">
                                 {education.map((school) => (
                                     <div className="relative group" key={school.degree}>
-                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full border-4 bg-[#2c2829] group-hover:bg-[#bc13fe] group-hover:border-[#bc13fe]" />
+                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full border-4 bg-[#2c2829] group-hover:bg-[#bc13fe] group-hover:border-[#bc13fe] group-hover:shadow-[0_0_8px_#bc13fe]" />
                                         <span className="text-xs font-bold text-primary uppercase tracking-widest block mb-1">
                                             {school.start} — {school.end}
                                         </span>
