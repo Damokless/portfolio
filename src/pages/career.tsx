@@ -5,7 +5,7 @@ import work from "../assets/data/work.json"
 
 export default function Career() {
     return (
-        <div className="py-24 px-6 " id="about">
+        <div className="py-24 px-6 " id="career">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-12 text-center">
                     <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.4em] mb-4">

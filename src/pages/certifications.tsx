@@ -3,7 +3,7 @@ import certifications from "../assets/data/certifications.json"
 
 export default function Certifications() {
     return (
-        <div className="py-24 px-6 space-y-12" id="stack">
+        <div className="py-24 px-6 space-y-12" id="certifications">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-8">
                     <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
