@@ -1,4 +1,4 @@
-import { Card, Link } from "@heroui/react"
+import { Card } from "@heroui/react"
 import certifications from "../assets/data/certifications.json"
 
 export default function Certifications() {
