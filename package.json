@@ -11,24 +11,24 @@
     "knip": "knip"
   },
   "dependencies": {
-    "@heroui/react": "^3.0.1",
-    "@heroui/styles": "^3.0.1",
-    "@tabler/icons-react": "^3.40.0",
+    "@heroui/react": "^3.0.2",
+    "@heroui/styles": "^3.0.2",
+    "@tabler/icons-react": "^3.41.1",
     "@tailwindcss/vite": "^4.2.2",
     "embla-carousel-auto-scroll": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.9",
-    "@types/node": "^25.5.0",
+    "@biomejs/biome": "^2.4.11",
+    "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.3.0",
-    "knip": "^6.0.5",
+    "knip": "^6.4.1",
     "typescript": "^6.0.2",
-    "vite": "^8.0.2"
+    "vite": "^8.0.8"
   }
 }
