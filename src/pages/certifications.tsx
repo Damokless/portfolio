@@ -16,9 +16,9 @@ export default function Certifications() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {certifications.map((certification) => (
                         <Card
-                            className=" p-6 rounded-xl flex flex-col items-center text-center hover:border-[#bc13fe66] hover:shadow-[0_0_30px_-10px_rgba(188,19,254,0.2)] hover:bg-[#bc13fe0d] border transition"
+                            className="group p-6 rounded-xl flex flex-col items-center text-center hover:border-[#bc13fe66] hover:shadow-[0_0_30px_-10px_rgba(188,19,254,0.2)] hover:bg-[#bc13fe0d] border transition"
                             key={certification.name}>
-                            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-primary/5 rounded-full border border-primary/20">
+                            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-primary/5 rounded-full border border-primary/20 group-hover:border-[#DE89FF]/40">
                                 <img
                                     alt={certification.institution}
                                     className="object-fit rounded-full"
