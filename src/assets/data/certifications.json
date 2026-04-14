@@ -1,0 +1,14 @@
+[
+    {
+        "icon": "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.svg",
+        "institution": "FreeCodeCamp",
+        "name": "Responsive Web Design",
+        "url": "https://www.freecodecamp.org/certification/damokles/responsive-web-design-v9"
+    },
+    {
+        "icon": "https://design-style-guide.freecodecamp.org/downloads/fcc_primary_small.svg",
+        "institution": "FreeCodeCamp",
+        "name": "JavaScript Algorithms and Data Structures",
+        "url": "https://www.freecodecamp.org/certification/damokles/javascript-algorithms-and-data-structures"
+    }
+]
