@@ -1,0 +1,226 @@
+{
+    "admin_sys": [
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+            "name": "Docker"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/nagios.svg",
+            "name": "Nagios"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/centreon.webp",
+            "name": "Centreon"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/zabbix.svg",
+            "name": "Zabbix"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/beszel-light.svg",
+            "name": "Beszel"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/netdata.svg",
+            "name": "Netdata"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/cisco.svg",
+            "name": "Cisco"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg",
+            "name": "Jenkins"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vsphere/vsphere-original.svg",
+            "name": "VMware"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+            "name": "Linux"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg",
+            "name": "Windows Server"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+            "name": "GitHub Actions"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
+            "name": "Nginx"
+        }
+    ],
+    "backend": [
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+            "name": "Node.js"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+            "name": "Express"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-original.svg",
+            "name": "fastify"
+        },
+        {
+            "icon": "https://raw.githubusercontent.com/honojs/hono/refs/heads/main/docs/images/hono-logo.svg",
+            "name": "honoJS"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg",
+            "name": "Prisma"
+        },
+        {
+            "icon": "https://orm.drizzle.team/svg/drizzle.svg",
+            "name": "Drizzle"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg",
+            "name": "GraphQL"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/knexjs/knexjs-original.svg",
+            "name": "Knex"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg",
+            "name": "Sequelize"
+        },
+        {
+            "icon": "https://cdn.iconscout.com/icon/free/png-256/free-bande-logo-icon-svg-download-png-498440.png?f=webp&w=128%201",
+            "name": "Stripe"
+        }
+    ],
+    "clouds": [
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg",
+            "name": "Google Cloud"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+            "name": "AWS"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg",
+            "name": "Azure"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/digitalocean/digitalocean-original.svg",
+            "name": "DigitalOcean"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/heroku/heroku-original.svg",
+            "name": "Heroku"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
+            "name": "Vercel"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg",
+            "name": "Netlify"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg",
+            "name": "Cloudflare"
+        }
+    ],
+    "databases": [
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+            "name": "MongoDB"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+            "name": "PostgreSQL"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+            "name": "MySQL"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
+            "name": "SQLite"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original.svg",
+            "name": "MariaDB"
+        }
+    ],
+    "frontend": [
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            "name": "React.js"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+            "name": "Next.js"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+            "name": "Tailwind CSS"
+        },
+        {
+            "icon": "https://raw.githubusercontent.com/heroui-inc/heroui/refs/heads/v3/apps/docs/public/icons/favicon-light.svg",
+            "name": "HeroUI"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/daisyui/daisyui-original.svg",
+            "name": "DaisyUI"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
+            "name": "Material UI"
+        },
+        {
+            "icon": "https://raw.githubusercontent.com/raycast/extensions/e755b0f2fdbe4340b6ee685aacd587da58b77252/extensions/shadcn-ui/assets/extension-icon.png",
+            "name": "Shadcn"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg",
+            "name": "React Native"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+            "name": "Redux"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zustand/zustand-original.svg",
+            "name": "Zustand"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chartjs/chartjs-original.svg",
+            "name": "Chart.js"
+        },
+        {
+            "icon": "https://raw.githubusercontent.com/mantinedev/mantine/refs/heads/master/apps/mantine.dev/src/components/LogoAssets/assets/mantine-logo.svg",
+            "name": "Mantine"
+        }
+    ],
+    "languages": [
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+            "name": "TypeScript"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+            "name": "Python"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg",
+            "name": "PowerShell"
+        },
+        {
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
+            "name": "Rust"
+        }
+    ]
+}

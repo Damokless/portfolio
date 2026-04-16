@@ -7,6 +7,7 @@ import {
     IconStackBack,
     IconStackFront
 } from "@tabler/icons-react"
+import stack from "../assets/data/stack.json"
 import Carousel from "../components/carousel.tsx"
 
 export default function Stack() {
@@ -27,29 +28,7 @@ export default function Stack() {
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-                    <Card className="h-82.5 col-span-8 rounded-lg">
-                        <Card.Header>
-                            <Card.Title className="flex gap-3 items-center">
-                                <IconCode stroke={1} />
-                                <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                    Languages
-                                </h4>
-                            </Card.Title>
-                            <Card.Description>my languages</Card.Description>
-                        </Card.Header>
-                    </Card>
-                    <Card className="h-82.5 col-span-4 rounded-lg">
-                        <Card.Header>
-                            <Card.Title className="flex gap-3 items-center">
-                                <IconCloud stroke={1} />
-                                <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                    Cloud
-                                </h4>
-                            </Card.Title>
-                            <Card.Description>cloud i use</Card.Description>
-                        </Card.Header>
-                    </Card>
-                    <Card className="h-82.5 col-span-4 rounded-lg">
+                    <Card className="h-82.5 col-span-12 rounded-lg transition hover:-translate-y-1 border">
                         <Card.Header>
                             <Card.Title className="flex gap-3 items-center">
                                 <IconStackFront stroke={1} />
@@ -57,10 +36,26 @@ export default function Stack() {
                                     Frontend
                                 </h4>
                             </Card.Title>
-                            <Card.Description>frameworks i use</Card.Description>
+                            <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
+                                {stack.frontend.map((framework) => (
+                                    <div
+                                        className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
+                                        key={framework.name}>
+                                        <img
+                                            alt={framework.name}
+                                            height={32}
+                                            src={framework.icon}
+                                            width={32}
+                                        />
+                                        <span className="text-center truncate w-full">
+                                            {framework.name}
+                                        </span>
+                                    </div>
+                                ))}
+                            </Card.Content>
                         </Card.Header>
                     </Card>
-                    <Card className="h-82.5 col-span-4 rounded-lg">
+                    <Card className="h-82.5 col-span-4 rounded-lg transition hover:-translate-y-1 border">
                         <Card.Header>
                             <Card.Title className="flex gap-3 items-center">
                                 <IconStackBack stroke={1} />
@@ -68,31 +63,131 @@ export default function Stack() {
                                     Backend
                                 </h4>
                             </Card.Title>
-                            <Card.Description>stack that i use</Card.Description>
+                            <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
+                                {stack.backend.map((techno) => (
+                                    <div
+                                        className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
+                                        key={techno.name}>
+                                        <img
+                                            alt={techno.name}
+                                            height={24}
+                                            src={techno.icon}
+                                            width={24}
+                                        />
+                                        <span className="text-center truncate w-full">
+                                            {techno.name}
+                                        </span>
+                                    </div>
+                                ))}
+                            </Card.Content>
                         </Card.Header>
                     </Card>
-                    <Card className="h-82.5 col-span-4 rounded-lg">
+                    <Card className="h-82.5 col-span-4 rounded-lg transition hover:-translate-y-1 border">
+                        <Card.Header>
+                            <Card.Title className="flex gap-3 items-center">
+                                <IconCode stroke={1} />
+                                <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
+                                  Languages
+                                </h4>
+                            </Card.Title>
+                            <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
+                                {stack.languages.map((language) => (
+                                    <div
+                                        className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
+                                        key={language.name}>
+                                        <img
+                                            alt={language.name}
+                                            height={32}
+                                            src={language.icon}
+                                            width={32}
+                                        />
+                                        <span className="text-center truncate w-full">
+                                            {language.name}
+                                        </span>
+                                    </div>
+                                ))}
+                            </Card.Content>
+                        </Card.Header>
+                    </Card>
+                    <Card className="h-82.5 col-span-4 rounded-lg transition hover:-translate-y-1 border">
                         <Card.Header>
                             <Card.Title className="flex gap-3 items-center">
                                 <IconDatabase stroke={1} />
                                 <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                    Databases
+                                  Databases
                                 </h4>
                             </Card.Title>
-                            <Card.Description>how i store my data</Card.Description>
+                            <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
+                                {stack.databases.map((database) => (
+                                    <div
+                                        className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
+                                        key={database.name}>
+                                        <img
+                                            alt={database.name}
+                                            height={24}
+                                            src={database.icon}
+                                            width={24}
+                                        />
+                                        <span className="text-center truncate w-full">
+                                            {database.name}
+                                        </span>
+                                    </div>
+                                ))}
+                            </Card.Content>
                         </Card.Header>
                     </Card>
-                    <Card className="h-82.5 col-span-12 rounded-lg">
+                    <Card className="h-82.5 col-span-8 rounded-lg transition hover:-translate-y-1 border">
                         <Card.Header>
                             <Card.Title className="flex gap-3 items-center">
                                 <IconDeviceDesktopCode stroke={1} />
                                 <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                    Admin Sys & Network
+                                  Admin Sys & Network
                                 </h4>
                             </Card.Title>
-                            <Card.Description>
-                                Some other stuff related to computers
-                            </Card.Description>
+                            <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
+                                {stack.admin_sys.map((service) => (
+                                    <div
+                                        className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
+                                        key={service.name}>
+                                        <img
+                                            alt={service.name}
+                                            height={24}
+                                            src={service.icon}
+                                            width={24}
+                                        />
+                                        <span className="text-center truncate w-full">
+                                            {service.name}
+                                        </span>
+                                    </div>
+                                ))}
+                            </Card.Content>
+                        </Card.Header>
+                    </Card>
+                    <Card className="h-82.5 col-span-4 rounded-lg transition hover:-translate-y-1 border">
+                        <Card.Header>
+                            <Card.Title className="flex gap-3 items-center">
+                                <IconCloud stroke={1} />
+                                <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
+                                  Cloud
+                                </h4>
+                            </Card.Title>
+                            <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
+                                {stack.clouds.map((cloud) => (
+                                    <div
+                                        className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
+                                        key={cloud.name}>
+                                        <img
+                                            alt={cloud.name}
+                                            height={24}
+                                            src={cloud.icon}
+                                            width={24}
+                                        />
+                                        <span className="text-center truncate w-full">
+                                            {cloud.name}
+                                        </span>
+                                    </div>
+                                ))}
+                            </Card.Content>
                         </Card.Header>
                     </Card>
                 </div>
