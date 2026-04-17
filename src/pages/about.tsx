@@ -54,11 +54,14 @@ export default function About() {
                         <div className="relative">
                             <div className="absolute inset-0 bg-[#bc13fe]/20 blur-3xl rounded-full" />
                             <img
-                                alt="Damokles profile"
+                                {...({
+                                    fetchpriority: "high"
+                                } as React.ImgHTMLAttributes<HTMLImageElement>)}
+                                alt="Alexandre Bouzon, développeur fullstack"
                                 className="relative rounded-2xl border-2 border-[#bc13fe]/20 shadow-2xl"
                                 height={400}
-                                loading="lazy"
-                                src="https://res.cloudinary.com/do18ebswp/image/upload/me_dn185a.webp"
+                                loading="eager"
+                                src="https://res.cloudinary.com/do18ebswp/image/upload/w_250,h_400,q_auto,f_auto/me_dn185a.webp"
                                 width={250}
                             />
                         </div>

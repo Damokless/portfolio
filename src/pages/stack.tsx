@@ -44,6 +44,7 @@ export default function Stack() {
                                         <img
                                             alt={framework.name}
                                             height={32}
+                                            loading="lazy"
                                             src={framework.icon}
                                             width={32}
                                         />
@@ -71,6 +72,7 @@ export default function Stack() {
                                         <img
                                             alt={techno.name}
                                             height={24}
+                                            loading="lazy"
                                             src={techno.icon}
                                             width={24}
                                         />
@@ -98,6 +100,7 @@ export default function Stack() {
                                         <img
                                             alt={language.name}
                                             height={32}
+                                            loading="lazy"
                                             src={language.icon}
                                             width={32}
                                         />
@@ -125,6 +128,7 @@ export default function Stack() {
                                         <img
                                             alt={database.name}
                                             height={24}
+                                            loading="lazy"
                                             src={database.icon}
                                             width={24}
                                         />
@@ -152,6 +156,7 @@ export default function Stack() {
                                         <img
                                             alt={service.name}
                                             height={24}
+                                            loading="lazy"
                                             src={service.icon}
                                             width={24}
                                         />
@@ -179,6 +184,7 @@ export default function Stack() {
                                         <img
                                             alt={cloud.name}
                                             height={24}
+                                            loading="lazy"
                                             src={cloud.icon}
                                             width={24}
                                         />

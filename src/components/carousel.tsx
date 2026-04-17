@@ -3,6 +3,8 @@ import AutoScroll from "embla-carousel-auto-scroll"
 import useEmblaCarousel from "embla-carousel-react"
 import tools from "../assets/data/tools.json"
 
+const FALLBACK_ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='4' fill='%23444'/%3E%3C/svg%3E"
+
 export default function Carousel() {
     const [emblaRef] = useEmblaCarousel({ dragFree: true, loop: true }, [
         AutoScroll({ speed: 0.55, startDelay: 100, stopOnFocusIn: false, stopOnInteraction: false })
@@ -28,9 +30,13 @@ export default function Carousel() {
                                 <Tooltip delay={0}>
                                     <Tooltip.Trigger>
                                         <img
-                                            alt={tool.name}
+                                            alt={`Logo ${tool.name}`}
                                             className="object-cover"
                                             height={48}
+                                            loading="lazy"
+                                            onError={(e) => {
+                                                e.currentTarget.src = FALLBACK_ICON
+                                            }}
                                             src={tool.icon}
                                             width={48}
                                         />
