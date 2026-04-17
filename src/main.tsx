@@ -13,12 +13,14 @@ import Stack from "./pages/stack.tsx"
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
         <Header />
-        <Home />
-        <About />
-        <Career />
-        <Stack />
-        <Certifications />
-        <Socials />
+        <main>
+            <Home />
+            <About />
+            <Career />
+            <Stack />
+            <Certifications />
+            <Socials />
+        </main>
         <Footer />
     </StrictMode>
 )
