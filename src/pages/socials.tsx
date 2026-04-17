@@ -1,3 +1,4 @@
+import { Link } from "@heroui/react"
 import {
     IconBrandGithub,
     IconBrandLinkedin,
@@ -14,30 +15,30 @@ export default function Socials() {
                     </h2>
                 </div>
                 <div className="flex flex-wrap items-center justify-center gap-8 mb-16">
-                    <a className="group flex flex-col items-center gap-3" href="/">
+                    <Link className="group flex flex-col items-center gap-3 no-underline" href="https://www.linkedin.com/in/alexandre-bouzon/" rel="noopener noreferrer" target="_blank">
                         <div className="w-14 h-14 rounded-full border border-slate-800 flex items-center justify-center group-hover:border-primary group-hover:bg-primary transition-all group-hover:shadow-[0_0_20px_rgba(188,19,254,0.4)]">
                             <IconBrandLinkedin size={32} stroke={1} />
                         </div>
                         <span className="text-xs uppercase tracking-widest text-slate-500 font-bold group-hover:text-primary transition-colors">
                             LinkedIn
                         </span>
-                    </a>
-                    <a className="group flex flex-col items-center gap-3" href="/">
+                    </Link>
+                    <Link className="group flex flex-col items-center gap-3 no-underline" href="https://github.com/Damokless" rel="noopener noreferrer"  target="_blank">
                         <div className="w-14 h-14 rounded-full border border-slate-800 flex items-center justify-center group-hover:border-primary group-hover:bg-primary transition-all group-hover:shadow-[0_0_20px_rgba(188,19,254,0.4)]">
                             <IconBrandGithub size={32} stroke={1} />
                         </div>
                         <span className="text-xs uppercase tracking-widest text-slate-500 font-bold group-hover:text-primary transition-colors">
                             GitHub
                         </span>
-                    </a>
-                    <a className="group flex flex-col items-center gap-3" href="/">
+                    </Link>
+                    <Link className="group flex flex-col items-center gap-3 no-underline" href="https://drive.google.com/file/d/1hytTZHDsLlzaeNEzRicNXcGRF8IelN41/view?usp=sharing" rel="noopener noreferrer"  target="_blank">
                         <div className="w-14 h-14 rounded-full border border-slate-800 flex items-center justify-center group-hover:border-primary group-hover:bg-primary transition-all group-hover:shadow-[0_0_20px_rgba(188,19,254,0.4)]">
                             <IconFileCv size={32} stroke={1} />
                         </div>
                         <span className="text-xs uppercase tracking-widest text-slate-500 font-bold group-hover:text-primary transition-colors">
                             CV
                         </span>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
