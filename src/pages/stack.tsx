@@ -12,7 +12,7 @@ import Carousel from "../components/carousel.tsx"
 
 export default function Stack() {
     return (
-        <div className="py-24 px-6 space-y-12" id="stack">
+        <section aria-labelledby="stack-heading" className="py-24 px-6 space-y-12" id="stack">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-8 flex flex-col items-center lg:items-start">
                     <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
@@ -87,7 +87,7 @@ export default function Stack() {
                             <Card.Title className="flex gap-3 items-center justify-center lg:justify-start">
                                 <IconCode stroke={1} />
                                 <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                  Languages
+                                    Languages
                                 </h4>
                             </Card.Title>
                             <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
@@ -114,7 +114,7 @@ export default function Stack() {
                             <Card.Title className="flex gap-3 items-center justify-center lg:justify-start">
                                 <IconDatabase stroke={1} />
                                 <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                  Databases
+                                    Databases
                                 </h4>
                             </Card.Title>
                             <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
@@ -141,7 +141,7 @@ export default function Stack() {
                             <Card.Title className="flex gap-3 items-center justify-center lg:justify-start">
                                 <IconDeviceDesktopCode stroke={1} />
                                 <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                  Admin Sys & Network
+                                    Admin Sys & Network
                                 </h4>
                             </Card.Title>
                             <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
@@ -168,7 +168,7 @@ export default function Stack() {
                             <Card.Title className="flex gap-3 items-center justify-center lg:justify-start">
                                 <IconCloud stroke={1} />
                                 <h4 className="text-lg font-bold dark:text-white uppercase tracking-wider">
-                                  Cloud
+                                    Cloud
                                 </h4>
                             </Card.Title>
                             <Card.Content className="flex flex-row flex-wrap justify-center gap-y-4 gap-x-2 pt-4">
@@ -195,6 +195,6 @@ export default function Stack() {
             <div>
                 <Carousel />
             </div>
-        </div>
+        </section>
     )
 }

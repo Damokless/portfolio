@@ -3,7 +3,7 @@ import { IconCalendarWeek, IconChevronDown, IconMail } from "@tabler/icons-react
 
 export default function Home() {
     return (
-        <div className="z-0 lg:h-svh flex flex-1 flex-col bg-[#0a0c10]">
+        <section aria-label="landing" className="z-0 lg:h-svh flex flex-1 flex-col bg-[#0a0c10]">
             <div className="absolute inset-0 opacity-20">
                 <div className="absolute top-1/4 left-1/4 lg:w-105 w-30 h-105 bg-[#bc13fe] rounded-full blur-[120px]" />
                 <div className="absolute bottom-1/4 right-1/4 w-105 h-105 bg-[#bc13fe] rounded-full blur-[120px]" />
@@ -11,7 +11,9 @@ export default function Home() {
             <div className="h-[calc(100svh-4rem)] flex justify-center items-center gap-8">
                 <div className="flex flex-col gap-12">
                     <div className="space-y-1 lg:space-y-6 text-center">
-                        <h1 className="text-2xl lg:text-7xl font-bold">Hello there ! I'm DAMOKLES.</h1>
+                        <h1 className="text-2xl lg:text-7xl font-bold">
+                            Hello there ! I'm DAMOKLES.
+                        </h1>
                         <h2 className="text-xl lg:text-5xl text-slate-400 font-semibold uppercase mb-8">
                             A Full-stack developer.
                         </h2>
@@ -28,12 +30,12 @@ export default function Home() {
                                 href="mailto:bouzon.alexandre@gmail.com"
                                 rel="noopener noreferrer"
                                 target="_blank">
-                                  <Button
-                                      className=" text-foreground hover:bg-[#27272a]"
-                                      variant="outline">
-                                      <IconMail className=" size-6" stroke={1} />
-                                      Contact Me
-                                  </Button>
+                                <Button
+                                    className=" text-foreground hover:bg-[#27272a]"
+                                    variant="outline">
+                                    <IconMail className=" size-6" stroke={1} />
+                                    Contact Me
+                                </Button>
                             </Link>
                             <div className=" w-1 h-1 bg-white rounded-full" />
                             <Link
@@ -57,6 +59,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

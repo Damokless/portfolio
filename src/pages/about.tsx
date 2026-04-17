@@ -1,6 +1,9 @@
 export default function About() {
     return (
-        <div className=" py-12 lg:py-24 px-6 border-t border-slate-200/5" id="about">
+        <section
+            aria-labelledby="about-heading"
+            className=" py-12 lg:py-24 px-6 border-t border-slate-200/5"
+            id="about">
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>
@@ -62,6 +65,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
