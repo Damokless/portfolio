@@ -23,7 +23,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="/">
+                            href="#about">
                             About
                         </a>
                     </li>
@@ -31,7 +31,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="/">
+                            href="#career">
                             Careers
                         </a>
                     </li>
@@ -39,7 +39,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="/">
+                            href="#stack">
                             Stack
                         </a>
                     </li>
@@ -47,8 +47,8 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="/">
-                              Certifications
+                            href="#certifications">
+                            Certifications
                         </a>
                     </li>
                 </ul>
@@ -57,7 +57,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
+                            href="mailto:bouzon.alexandre@gmail.com"
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Email</span>
@@ -68,7 +68,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
+                            href="https://cal.com/damokles/rdvvisio"
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Book a call</span>
@@ -79,7 +79,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
+                            href="https://github.com/Damokless"
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Github</span>
@@ -90,7 +90,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
+                            href="https://www.linkedin.com/in/alexandre-bouzon/"
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Linkedin</span>
@@ -101,7 +101,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
+                            href="https://discord.com/users/168407745072988161"
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Discord</span>
