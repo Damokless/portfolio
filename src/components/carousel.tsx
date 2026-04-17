@@ -20,10 +20,10 @@ export default function Carousel() {
             </div>
             <div className="embla py-12 border-y border-slate-200/5">
                 <div className="overflow-hidden" ref={emblaRef}>
-                    <div className="flex touch-pan-y touch-pinch-zoom">
+                    <div className="flex gap-6 lg:gap-0 touch-pan-y touch-pinch-zoom">
                         {tools.map((tool) => (
                             <div
-                                className="flex-[0_0_9%] min-w-0 place-items-center"
+                                className="flex-[0_0_12%] md:flex-[0_0_9%] min-w-0 place-items-center"
                                 key={tool.name}>
                                 <Tooltip delay={0}>
                                     <Tooltip.Trigger>

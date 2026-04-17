@@ -5,11 +5,11 @@ export default function Certifications() {
     return (
         <div className="py-24 px-6 space-y-12" id="certifications">
             <div className="max-w-6xl mx-auto">
-                <div className="mb-8">
+                <div className="mb-8 flex flex-col items-center lg:items-start">
                     <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
                         Certifications
                     </h2>
-                    <h3 className="text-sm font-bold dark:text-white mb-8">
+                    <h3 className="text-sm font-bold dark:text-white mb-8 text-center lg:text-left">
                         Collecting new skills and masteries like Pokémon Gym Badges.
                     </h3>
                 </div>

@@ -21,7 +21,7 @@ export default function Career() {
                             <Tabs.List aria-label="career tabs">
                                 <Tabs.Tab className=" flex gap-2" id="work">
                                     <IconBriefcase size={24} stroke={1} />
-                                    Work Experience
+                                    Experiences
                                     <Tabs.Indicator className=" bg-[#DE89FF]" />
                                 </Tabs.Tab>
                                 <Tabs.Tab className=" flex gap-2" id="education">

@@ -1,12 +1,10 @@
-import type { ReactElement } from "react"
-
-export default function About(): ReactElement {
+export default function About() {
     return (
-        <div className="py-24 px-6 border-t border-slate-200/5" id="about">
+        <div className=" py-12 lg:py-24 px-6 border-t border-slate-200/5" id="about">
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>
-                        <div className="mb-8">
+                        <div className="mb-8 flex flex-col items-center lg:items-start">
                             <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
                                 About me
                             </h2>
@@ -14,7 +12,7 @@ export default function About(): ReactElement {
                                 Let's see how deep the rabbit hole goes.
                             </h3>
                         </div>
-                        <div className="space-y-6">
+                        <div className="space-y-6 text-justify md:text-normal">
                             <p className="text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
                                 I'm a Fullstack JavaScript Developer specialized in building
                                 high-performance, scalable and production-ready web applications.

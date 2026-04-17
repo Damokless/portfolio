@@ -1,4 +1,5 @@
 import { Button, Link } from "@heroui/react"
+import { IconMenu2 } from "@tabler/icons-react"
 import { useState } from "react"
 
 export default function Header() {
@@ -11,31 +12,10 @@ export default function Header() {
                     <Button
                         aria-expanded={isMenuOpen}
                         aria-label="Toggle menu"
-                        className="md:hidden"
+                        className="md:hidden bg-transparent"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}>
                         <span className="sr-only">Menu</span>
-                        <svg
-                            className="h-6 w-6"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <title>menu</title>
-                            {isMenuOpen ? (
-                                <path
-                                    d="M6 18L18 6M6 6l12 12"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                />
-                            ) : (
-                                <path
-                                    d="M4 6h16M4 12h16M4 18h16"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                />
-                            )}
-                        </svg>
+                        <IconMenu2 size={36} stroke={2} />
                     </Button>
                     <div className="flex items-center gap-3">
                         <p className="font-bold">DAMOKLES</p>
@@ -66,33 +46,27 @@ export default function Header() {
             </header>
             {!!isMenuOpen && (
                 <div className="border-t border-separator md:hidden">
-                    <ul className="flex flex-col gap-2 p-4">
+                    <ul className="flex flex-col justify-center items-center gap-2 p-4">
                       <li>
-                          <Link className="no-underline block py-2" href="#">
+                          <Link className="no-underline block py-2" href="#about">
                               About
                           </Link>
                       </li>
                       <li>
-                          <Link className="no-underline block py-2" href="#">
+                          <Link className="no-underline block py-2" href="#career">
                               Career
                           </Link>
                       </li>
                       <li>
-                          <Link className="no-underline block py-2" href="#">
+                          <Link className="no-underline block py-2" href="#stack">
                               Stack
                           </Link>
                       </li>
                       <li>
-                          <Link className="no-underline block py-2" href="#">
+                          <Link className="no-underline block py-2" href="#certifications">
                               Certifications
                           </Link>
                       </li>
-                        <li className="mt-4 flex flex-col gap-2 border-t border-separator pt-4">
-                            <Link className="block py-2" href="#">
-                                Login
-                            </Link>
-                            <Button className="w-full">Sign Up</Button>
-                        </li>
                     </ul>
                 </div>
             )}
