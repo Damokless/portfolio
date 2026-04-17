@@ -14,9 +14,9 @@ export default function Home() {
                         <h1 className="text-2xl lg:text-7xl font-bold">
                             Hello there ! I'm DAMOKLES.
                         </h1>
-                        <h2 className="text-xl lg:text-5xl text-slate-400 font-semibold uppercase mb-8">
+                        <p className="text-xl lg:text-5xl text-slate-400 font-semibold uppercase mb-8">
                             A Full-stack developer.
-                        </h2>
+                        </p>
                         <p className=" text-slate-400 text-wrap lg:w-3xl text-center place-self-center lg:text-xl text-sm px-3 md:px-0">
                             I turn coffee into code, Trying to build pixel-perfect apps with
                             innovative solutions and suffering to find the best way to solve
