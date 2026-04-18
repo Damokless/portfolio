@@ -9,6 +9,7 @@ import {
 } from "@tabler/icons-react"
 import stack from "../assets/data/stack.json"
 import Carousel from "../components/carousel.tsx"
+import TechIcon from "../components/tech_icon.tsx"
 
 export default function Stack() {
     return (
@@ -41,12 +42,10 @@ export default function Stack() {
                                     <div
                                         className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
                                         key={framework.name}>
-                                        <img
+                                        <TechIcon
                                             alt={framework.name}
-                                            height={32}
-                                            loading="lazy"
+                                            size={32}
                                             src={framework.icon}
-                                            width={32}
                                         />
                                         <span className="hidden md:block text-center truncate w-full">
                                             {framework.name}
@@ -69,13 +68,7 @@ export default function Stack() {
                                     <div
                                         className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
                                         key={techno.name}>
-                                        <img
-                                            alt={techno.name}
-                                            height={24}
-                                            loading="lazy"
-                                            src={techno.icon}
-                                            width={24}
-                                        />
+                                        <TechIcon alt={techno.name} size={24} src={techno.icon} />
                                         <span className="hidden md:block text-center truncate w-full">
                                             {techno.name}
                                         </span>
@@ -97,13 +90,7 @@ export default function Stack() {
                                     <div
                                         className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
                                         key={language.name}>
-                                        <img
-                                            alt={language.name}
-                                            height={32}
-                                            loading="lazy"
-                                            src={language.icon}
-                                            width={32}
-                                        />
+                                          <TechIcon alt={language.name} size={32} src={language.icon} />
                                         <span className="hidden md:block text-center truncate w-full">
                                             {language.name}
                                         </span>
@@ -125,13 +112,7 @@ export default function Stack() {
                                     <div
                                         className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
                                         key={database.name}>
-                                        <img
-                                            alt={database.name}
-                                            height={24}
-                                            loading="lazy"
-                                            src={database.icon}
-                                            width={24}
-                                        />
+                                          <TechIcon alt={database.name} size={32} src={database.icon} />
                                         <span className="hidden md:block text-center truncate w-full">
                                             {database.name}
                                         </span>
@@ -153,13 +134,7 @@ export default function Stack() {
                                     <div
                                         className="w-[22%] min-w-17.5 p-1 lg:p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
                                         key={service.name}>
-                                        <img
-                                            alt={service.name}
-                                            height={24}
-                                            loading="lazy"
-                                            src={service.icon}
-                                            width={24}
-                                        />
+                                          <TechIcon alt={service.name} size={32} src={service.icon} />
                                         <span className="hidden md:block text-center truncate w-full">
                                             {service.name}
                                         </span>
@@ -181,13 +156,7 @@ export default function Stack() {
                                     <div
                                         className="w-[22%] min-w-17.5 p-2 rounded-lg text-xs font-medium flex flex-col items-center gap-3 justify-center"
                                         key={cloud.name}>
-                                        <img
-                                            alt={cloud.name}
-                                            height={24}
-                                            loading="lazy"
-                                            src={cloud.icon}
-                                            width={24}
-                                        />
+                                          <TechIcon alt={cloud.name} size={24} src={cloud.icon} />
                                         <span className="hidden md:block text-center truncate w-full">
                                             {cloud.name}
                                         </span>

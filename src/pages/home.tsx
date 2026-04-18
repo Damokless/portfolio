@@ -1,5 +1,6 @@
 import { Button, Link } from "@heroui/react"
 import { IconCalendarWeek, IconChevronDown, IconMail } from "@tabler/icons-react"
+import { LINKS } from "../config/links.ts"
 
 export default function Home() {
     return (
@@ -27,7 +28,7 @@ export default function Home() {
                         <div className="flex flex-row h-full w-fit p-1 items-center justify-center gap-2">
                             <Link
                                 className="no-underline"
-                                href="mailto:bouzon.alexandre@gmail.com"
+                                href={LINKS.email}
                                 rel="noopener noreferrer"
                                 target="_blank">
                                 <Button
@@ -40,7 +41,7 @@ export default function Home() {
                             <div className=" w-1 h-1 bg-white rounded-full" />
                             <Link
                                 className="no-underline"
-                                href="https://cal.com/damokles/rdvvisio"
+                                href={LINKS.cal}
                                 rel="noopener noreferrer"
                                 target="_blank">
                                 <Button

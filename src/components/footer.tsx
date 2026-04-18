@@ -5,6 +5,7 @@ import {
     IconCalendarWeek,
     IconMail
 } from "@tabler/icons-react"
+import { LINKS } from "../config/links.ts"
 
 export default function Footer() {
     return (
@@ -57,7 +58,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="mailto:bouzon.alexandre@gmail.com"
+                            href={LINKS.email}
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Email</span>
@@ -68,7 +69,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="https://cal.com/damokles/rdvvisio"
+                            href={LINKS.cal}
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Book a call</span>
@@ -79,7 +80,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="https://github.com/Damokless"
+                            href={LINKS.github}
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Github</span>
@@ -90,7 +91,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="https://www.linkedin.com/in/alexandre-bouzon/"
+                            href={LINKS.linkedin}
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Linkedin</span>
@@ -101,7 +102,7 @@ export default function Footer() {
                     <li>
                         <a
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                            href="https://discord.com/users/168407745072988161"
+                            href={LINKS.discord}
                             rel="noreferrer"
                             target="_blank">
                             <span className="sr-only">Discord</span>

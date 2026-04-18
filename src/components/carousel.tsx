@@ -2,8 +2,7 @@ import { Tooltip } from "@heroui/react"
 import AutoScroll from "embla-carousel-auto-scroll"
 import useEmblaCarousel from "embla-carousel-react"
 import tools from "../assets/data/tools.json"
-
-const FALLBACK_ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='4' fill='%23444'/%3E%3C/svg%3E"
+import TechIcon from "./tech_icon.tsx"
 
 export default function Carousel() {
     const [emblaRef] = useEmblaCarousel({ dragFree: true, loop: true }, [
@@ -29,17 +28,7 @@ export default function Carousel() {
                                 key={tool.name}>
                                 <Tooltip delay={0}>
                                     <Tooltip.Trigger>
-                                        <img
-                                            alt={`Logo ${tool.name}`}
-                                            className="object-cover"
-                                            height={48}
-                                            loading="lazy"
-                                            onError={(e) => {
-                                                e.currentTarget.src = FALLBACK_ICON
-                                            }}
-                                            src={tool.icon}
-                                            width={48}
-                                        />
+                                        <TechIcon alt={tool.name} size={32} src={tool.icon} />
                                     </Tooltip.Trigger>
                                     <Tooltip.Content>
                                         <p>{tool.name}</p>
