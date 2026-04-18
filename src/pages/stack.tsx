@@ -9,10 +9,10 @@ import {
 } from "@tabler/icons-react"
 import stackData from "../assets/data/stack.json"
 import Carousel from "../components/carousel.tsx"
-import TechIcon from "../components/tech_icon.tsx"
+import TechIcon from "../components/tech-icon.tsx"
 import type { Stack } from "../types/index.ts"
 
-export default function technoStack() {
+export default function TechnoStack() {
     const stack: Stack = stackData
 
     return (

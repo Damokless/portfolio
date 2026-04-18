@@ -3,7 +3,7 @@ import AutoScroll from "embla-carousel-auto-scroll"
 import useEmblaCarousel from "embla-carousel-react"
 import toolsData from "../assets/data/tools.json"
 import type { Tool } from "../types/index.ts"
-import TechIcon from "./tech_icon.tsx"
+import TechIcon from "./tech-icon.tsx"
 
 export default function Carousel() {
     const [emblaRef] = useEmblaCarousel({ dragFree: true, loop: true }, [
