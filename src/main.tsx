@@ -1,14 +1,17 @@
-import { StrictMode } from "react"
+import { lazy, StrictMode, Suspense } from "react"
 import { createRoot } from "react-dom/client"
 import "./styles.css"
-import Footer from "./components/footer.tsx"
+
 import Header from "./components/header.tsx"
 import About from "./pages/about.tsx"
-import Career from "./pages/career.tsx"
-import Certifications from "./pages/certifications.tsx"
 import Home from "./pages/home.tsx"
-import Socials from "./pages/socials.tsx"
-import Stack from "./pages/stack.tsx"
+
+// below-the-fold
+const Career = lazy(() => import("./pages/career.tsx"))
+const Stack = lazy(() => import("./pages/stack.tsx"))
+const Certifications = lazy(() => import("./pages/certifications.tsx"))
+const Socials = lazy(() => import("./pages/socials.tsx"))
+const Footer = lazy(() => import("./components/footer.tsx"))
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
@@ -16,10 +19,12 @@ createRoot(document.getElementById("root")!).render(
         <main>
             <Home />
             <About />
-            <Career />
-            <Stack />
-            <Certifications />
-            <Socials />
+            <Suspense fallback={null}>
+                <Career />
+                <Stack />
+                <Certifications />
+                <Socials />
+            </Suspense>
         </main>
         <Footer />
     </StrictMode>
