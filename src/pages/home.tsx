@@ -3,10 +3,10 @@ import { IconCalendarWeek, IconChevronDown, IconMail } from "@tabler/icons-react
 
 export default function Home() {
     return (
-        <section aria-label="landing" className="z-0 lg:h-svh flex flex-1 flex-col bg-[#0a0c10]">
+        <section aria-label="landing" className="z-0 lg:h-svh flex flex-1 flex-col bg-bg-main">
             <div className="absolute inset-0 opacity-20">
-                <div className="absolute top-1/4 left-1/4 lg:w-105 w-30 h-105 bg-[#bc13fe] rounded-full blur-[120px]" />
-                <div className="absolute bottom-1/4 right-1/4 w-105 h-105 bg-[#bc13fe] rounded-full blur-[120px]" />
+                <div className="absolute top-1/4 left-1/4 lg:w-105 w-30 h-105 bg-brand rounded-full blur-[120px]" />
+                <div className="absolute bottom-1/4 right-1/4 w-105 h-105 bg-brand rounded-full blur-[120px]" />
             </div>
             <div className="h-[calc(100svh-4rem)] flex justify-center items-center gap-8">
                 <div className="flex flex-col gap-12">

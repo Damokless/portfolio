@@ -8,7 +8,7 @@ export default function Career() {
         <section aria-labelledby="career-heading" className="py-24 px-6 " id="career">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-12 text-center">
-                    <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.4em] mb-4">
+                    <h2 className="text-2xl font-bold text-brand-light uppercase tracking-[0.4em] mb-4">
                         Career
                     </h2>
                     <h3 className="text-sm font-bold dark:text-white mb-8">
@@ -22,12 +22,12 @@ export default function Career() {
                                 <Tabs.Tab className=" flex gap-2" id="work">
                                     <IconBriefcase size={24} stroke={1} />
                                     Experiences
-                                    <Tabs.Indicator className=" bg-[#DE89FF]" />
+                                    <Tabs.Indicator className=" bg-brand-light" />
                                 </Tabs.Tab>
                                 <Tabs.Tab className=" flex gap-2" id="education">
                                     <IconSchool size={24} stroke={1} />
                                     Education
-                                    <Tabs.Indicator className=" bg-[#DE89FF]" />
+                                    <Tabs.Indicator className=" bg-brand-light" />
                                 </Tabs.Tab>
                             </Tabs.List>
                         </Tabs.ListContainer>
@@ -35,7 +35,7 @@ export default function Career() {
                             <div className="relative pl-8 border-l border-primary/20 space-y-16 max-w-2xl mx-auto">
                                 {work.map((company) => (
                                     <div className="relative group" key={company.name}>
-                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full bg-[#2c2829] group-hover:bg-[#bc13fe] group-hover:border-[#bc13fe] group-hover:shadow-[0_0_8px_#bc13fe] border-4" />
+                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full bg-dot-bg group-hover:bg-brand group-hover:border-brand group-hover:shadow-[0_0_8px_#bc13fe] border-4" />
                                         <span className="text-xs font-bold text-slate-500 uppercase tracking-widest block mb-1">
                                             {company.duration}
                                         </span>
@@ -80,7 +80,7 @@ export default function Career() {
                             <div className="relative pl-8 border-l border-primary/20 space-y-16 max-w-2xl mx-auto">
                                 {education.map((school) => (
                                     <div className="relative group" key={school.degree}>
-                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full border-4 bg-[#2c2829] group-hover:bg-[#bc13fe] group-hover:border-[#bc13fe] group-hover:shadow-[0_0_8px_#bc13fe]" />
+                                        <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full border-4 bg-dot-bg group-hover:bg-brand group-hover:border-brand group-hover:shadow-[0_0_8px_#bc13fe]" />
                                         <span className="text-xs font-bold text-primary uppercase tracking-widest block mb-1">
                                             {school.start} — {school.end}
                                         </span>

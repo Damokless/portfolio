@@ -15,7 +15,7 @@ export default function Stack() {
         <section aria-labelledby="stack-heading" className="py-24 px-6 space-y-12" id="stack">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-8 flex flex-col items-center lg:items-start">
-                    <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
+                    <h2 className="text-2xl font-bold text-brand-light uppercase tracking-[0.3em] mb-4">
                         Stack
                     </h2>
                     <h3 className="text-sm text-center lg:text-start font-bold dark:text-white mb-8">

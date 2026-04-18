@@ -13,7 +13,7 @@ export default function Carousel() {
     return (
         <div>
             <div className="mb-12 text-center">
-                <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.4em] mb-4">
+                <h2 className="text-2xl font-bold text-brand-light uppercase tracking-[0.4em] mb-4">
                     Tools
                 </h2>
                 <h3 className="text-sm font-bold dark:text-white mb-8">

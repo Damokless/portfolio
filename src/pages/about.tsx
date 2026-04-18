@@ -8,7 +8,7 @@ export default function About() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <div className="mb-8 flex flex-col items-center lg:items-start">
-                            <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
+                            <h2 className="text-2xl font-bold text-brand-light uppercase tracking-[0.3em] mb-4">
                                 About me
                             </h2>
                             <h3 className="text-sm font-bold dark:text-white mb-8">
@@ -52,13 +52,13 @@ export default function About() {
                     </div>
                     <div className="flex justify-center lg:justify-end">
                         <div className="relative">
-                            <div className="absolute inset-0 bg-[#bc13fe]/20 blur-3xl rounded-full" />
+                            <div className="absolute inset-0 bg-brand/20 blur-3xl rounded-full" />
                             <img
                                 {...({
                                     fetchpriority: "high"
                                 } as React.ImgHTMLAttributes<HTMLImageElement>)}
                                 alt="Alexandre Bouzon, développeur fullstack"
-                                className="relative rounded-2xl border-2 border-[#bc13fe]/20 shadow-2xl"
+                                className="relative rounded-2xl border-2 border-brand/20 shadow-2xl"
                                 height={400}
                                 loading="eager"
                                 src="https://res.cloudinary.com/do18ebswp/image/upload/w_250,h_400,q_auto,f_auto/me_dn185a.webp"

@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="py-24 px-6 border-t border-slate-200/5" id="about">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-8">
-                    <h2 className="text-2xl text-center font-bold text-[#DE89FF] uppercase tracking-wider mb-4">
+                    <h2 className="text-2xl text-center font-bold text-brand-light uppercase tracking-wider mb-4">
                         DAMOKLES
                     </h2>
                     <h3 className="text-sm font-bold  mb-8 text-center leading-relaxed text-gray-500 dark:text-gray-400">

@@ -9,7 +9,7 @@ export default function Certifications() {
             id="certifications">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-8 flex flex-col items-center lg:items-start">
-                    <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-[0.3em] mb-4">
+                    <h2 className="text-2xl font-bold text-brand-light uppercase tracking-[0.3em] mb-4">
                         Certifications
                     </h2>
                     <h3 className="text-sm font-bold dark:text-white mb-8 text-center lg:text-left">
@@ -25,7 +25,7 @@ export default function Certifications() {
                             <Card
                                 className="p-6 w-full rounded-xl flex flex-col items-center text-center hover:border-[#bc13fe66] hover:shadow-[0_0_30px_-10px_rgba(188,19,254,0.2)] hover:bg-[#bc13fe0d] border transition"
                                 key={certification.name}>
-                                <div className="w-16 h-16 mb-4 flex items-center justify-center bg-primary/5 rounded-full border border-primary/20 group-hover:border-[#DE89FF]/40">
+                                <div className="w-16 h-16 mb-4 flex items-center justify-center bg-primary/5 rounded-full border border-primary/20 group-hover:border-brand-light/40">
                                     <img
                                         alt={certification.institution}
                                         className="object-fit rounded-full"

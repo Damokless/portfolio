@@ -6,7 +6,7 @@ export default function Socials() {
         <section aria-labelledby="socials-heading" className="py-24 px-6 " id="about">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-12 text-center">
-                    <h2 className="text-2xl font-bold text-[#DE89FF] uppercase tracking-wider mb-4">
+                    <h2 className="text-2xl font-bold text-brand-light uppercase tracking-wider mb-4">
                         These are the links you're looking for
                     </h2>
                 </div>
