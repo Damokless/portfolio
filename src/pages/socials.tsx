@@ -4,7 +4,7 @@ import { LINKS } from "../config/links.ts"
 
 export default function Socials() {
     return (
-        <section aria-labelledby="socials-heading" className="py-24 px-6 " id="about">
+        <section aria-labelledby="socials-heading" className="py-24 px-6 ">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-12 text-center">
                     <h2 className="text-2xl font-bold text-brand-light uppercase tracking-wider mb-4">
