@@ -25,7 +25,7 @@ export default function technoStack() {
                     <h3 className="text-sm text-center lg:text-start font-bold dark:text-white mb-8">
                         Collecting new skills and masteries like Pokémon Gym Badges.
                     </h3>
-                    <p className="text-slate-500 text-center lg:text-start dark:text-slate-400 font-light leading-relaxed max-w-2xl">
+                    <p className="text-slate-400 text-center lg:text-start dark:text-slate-400 font-light leading-relaxed max-w-2xl">
                         My ecosystem revolves around modern JavaScript/TypeScript, leveraging
                         industry-leading frameworks and infrastructure to build scalable,
                         high-performance digital products.

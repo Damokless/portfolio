@@ -20,7 +20,7 @@ export default function Socials() {
                         <div className="w-14 h-14 rounded-full border border-slate-800 flex items-center justify-center group-hover:border-primary group-hover:bg-primary transition-all group-hover:shadow-[0_0_20px_rgba(188,19,254,0.4)]">
                             <IconBrandLinkedin size={32} stroke={1} />
                         </div>
-                        <span className="text-xs uppercase tracking-widest text-slate-500 font-bold group-hover:text-primary transition-colors">
+                        <span className="text-xs uppercase tracking-widest text-slate-400 font-bold group-hover:text-primary transition-colors">
                             LinkedIn
                         </span>
                     </Link>
@@ -32,7 +32,7 @@ export default function Socials() {
                         <div className="w-14 h-14 rounded-full border border-slate-800 flex items-center justify-center group-hover:border-primary group-hover:bg-primary transition-all group-hover:shadow-[0_0_20px_rgba(188,19,254,0.4)]">
                             <IconBrandGithub size={32} stroke={1} />
                         </div>
-                        <span className="text-xs uppercase tracking-widest text-slate-500 font-bold group-hover:text-primary transition-colors">
+                        <span className="text-xs uppercase tracking-widest text-slate-400 font-bold group-hover:text-primary transition-colors">
                             GitHub
                         </span>
                     </Link>
@@ -44,7 +44,7 @@ export default function Socials() {
                         <div className="w-14 h-14 rounded-full border border-slate-800 flex items-center justify-center group-hover:border-primary group-hover:bg-primary transition-all group-hover:shadow-[0_0_20px_rgba(188,19,254,0.4)]">
                             <IconFileCv size={32} stroke={1} />
                         </div>
-                        <span className="text-xs uppercase tracking-widest text-slate-500 font-bold group-hover:text-primary transition-colors">
+                        <span className="text-xs uppercase tracking-widest text-slate-400 font-bold group-hover:text-primary transition-colors">
                             CV
                         </span>
                     </Link>

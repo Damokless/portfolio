@@ -16,7 +16,7 @@ export default function About() {
                             </h3>
                         </div>
                         <div className="space-y-6 text-justify md:text-normal">
-                            <p className="text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
+                            <p className="text-lg text-slate-400 dark:text-slate-400 font-light leading-relaxed">
                                 I'm a Fullstack JavaScript Developer specialized in building
                                 high-performance, scalable and production-ready web applications.
                                 With a strong focus on{" "}
@@ -25,7 +25,7 @@ export default function About() {
                                 optimized performance and intuitive user experience.
                             </p>
 
-                            <p className="text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
+                            <p className="text-lg text-slate-400 dark:text-slate-400 font-light leading-relaxed">
                                 From MVP development to complex platforms, I help businesses turn
                                 ideas into robust and maintainable solutions. My approach blends{" "}
                                 <strong>software engineering best practices</strong>,
@@ -34,14 +34,14 @@ export default function About() {
                                 scalable and user-centric applications.
                             </p>
 
-                            <p className="text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
+                            <p className="text-lg text-slate-400 dark:text-slate-400 font-light leading-relaxed">
                                 Beyond frontend and backend development, I bring a strong background
                                 in <strong>system administration, networking and DevOps</strong>.
                                 This allows me to manage projects end-to-end, from infrastructure
                                 design to deployment and monitoring.
                             </p>
 
-                            <p className="text-lg text-slate-500 dark:text-slate-400 font-light leading-relaxed">
+                            <p className="text-lg text-slate-400 dark:text-slate-400 font-light leading-relaxed">
                                 Passionate about technology, performance optimization and continuous
                                 learning, I constantly explore new tools, frameworks and
                                 architectures to stay ahead of the curve. Whether it's improving

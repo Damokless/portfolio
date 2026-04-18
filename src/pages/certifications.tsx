@@ -40,7 +40,7 @@ export default function Certifications() {
                                 <h4 className="font-bold dark:text-white mb-1 text-sm">
                                     {certification.name}
                                 </h4>
-                                <p className="text-[10px] text-slate-500 uppercase tracking-widest">
+                                <p className="text-[10px] text-slate-400 uppercase tracking-widest">
                                     {certification.institution}
                                 </p>
                             </Card>

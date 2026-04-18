@@ -40,7 +40,7 @@ export default function Career() {
                                 {work.map((company) => (
                                     <div className="relative group" key={company.name}>
                                         <div className="absolute -left-10.25 top-0 w-4 h-4 rounded-full bg-dot-bg group-hover:bg-brand group-hover:border-brand group-hover:shadow-[0_0_8px_#bc13fe] border-4" />
-                                        <span className="text-xs font-bold text-slate-500 uppercase tracking-widest block mb-1">
+                                        <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-1">
                                             {company.duration}
                                         </span>
                                         <h4 className="text-2xl font-bold dark:text-white mb-4">
@@ -52,7 +52,7 @@ export default function Career() {
                                                     {company.positions[0].position} -{" "}
                                                     {company.positions[0].contract}
                                                 </p>
-                                                <p className="text-base text-slate-500 dark:text-slate-400 font-light leading-relaxed">
+                                                <p className="text-base text-slate-400 dark:text-slate-400 font-light leading-relaxed">
                                                     {company.positions[0].description}
                                                 </p>
                                             </>
@@ -69,7 +69,7 @@ export default function Career() {
                                                             {experience.position} -{" "}
                                                             {experience.contract}
                                                         </p>
-                                                        <p className="text-base text-slate-500 dark:text-slate-400 font-light mt-2 leading-relaxed">
+                                                        <p className="text-base text-slate-400 dark:text-slate-400 font-light mt-2 leading-relaxed">
                                                             {experience.description}
                                                         </p>
                                                     </div>
@@ -94,7 +94,7 @@ export default function Career() {
                                         <p className="text-lg font-bold text-slate-800 dark:text-slate-200 mb-2">
                                             {school.degree}
                                         </p>
-                                        <p className="text-base text-slate-500 dark:text-slate-400 font-light leading-relaxed">
+                                        <p className="text-base text-slate-400 dark:text-slate-400 font-light leading-relaxed">
                                             {school.description}
                                         </p>
                                     </div>
