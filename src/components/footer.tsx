@@ -57,55 +57,55 @@ export default function Footer() {
                 <ul className="mt-12 flex justify-center gap-6 md:gap-8">
                     <li>
                         <a
+                            aria-label="Envoyer un email"
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                             href={LINKS.email}
                             rel="noreferrer"
                             target="_blank">
-                            <span className="sr-only">Email</span>
                             <IconMail size={32} stroke={1} />
                         </a>
                     </li>
 
                     <li>
                         <a
+                            aria-label="Réserver une réunion"
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                             href={LINKS.cal}
                             rel="noreferrer"
                             target="_blank">
-                            <span className="sr-only">Book a call</span>
                             <IconCalendarWeek size={32} stroke={1} />
                         </a>
                     </li>
 
                     <li>
                         <a
+                            aria-label="Visiter mon profil GitHub"
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                             href={LINKS.github}
                             rel="noreferrer"
                             target="_blank">
-                            <span className="sr-only">Github</span>
                             <IconBrandGithub size={32} stroke={1} />
                         </a>
                     </li>
 
                     <li>
                         <a
+                            aria-label="Visiter mon profil LinkedIn"
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                             href={LINKS.linkedin}
                             rel="noreferrer"
                             target="_blank">
-                            <span className="sr-only">Linkedin</span>
                             <IconBrandLinkedin size={32} stroke={1} />
                         </a>
                     </li>
 
                     <li>
                         <a
+                            aria-label="Visiter mon profil Discord"
                             className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                             href={LINKS.discord}
                             rel="noreferrer"
                             target="_blank">
-                            <span className="sr-only">Discord</span>
                             <IconBrandDiscord size={32} stroke={1} />
                         </a>
                     </li>
