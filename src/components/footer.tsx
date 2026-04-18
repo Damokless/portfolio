@@ -9,7 +9,7 @@ import { LINKS } from "../config/links.ts"
 
 export default function Footer() {
     return (
-        <div className="py-24 px-6 border-t border-slate-200/5" id="about">
+        <footer className="py-24 px-6 border-t border-slate-200/5">
             <div className="max-w-6xl mx-auto">
                 <div className="mb-8">
                     <h2 className="text-2xl text-center font-bold text-brand-light uppercase tracking-wider mb-4">
@@ -111,6 +111,6 @@ export default function Footer() {
                     </li>
                 </ul>
             </div>
-        </div>
+        </footer>
     )
 }
