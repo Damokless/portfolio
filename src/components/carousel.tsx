@@ -1,13 +1,16 @@
 import { Tooltip } from "@heroui/react"
 import AutoScroll from "embla-carousel-auto-scroll"
 import useEmblaCarousel from "embla-carousel-react"
-import tools from "../assets/data/tools.json"
+import toolsData from "../assets/data/tools.json"
+import type { Tool } from "../types/index.ts"
 import TechIcon from "./tech_icon.tsx"
 
 export default function Carousel() {
     const [emblaRef] = useEmblaCarousel({ dragFree: true, loop: true }, [
         AutoScroll({ speed: 0.55, startDelay: 100, stopOnFocusIn: false, stopOnInteraction: false })
     ])
+
+    const tools: Tool[] = toolsData
 
     return (
         <div>

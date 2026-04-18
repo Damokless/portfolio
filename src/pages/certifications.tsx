@@ -1,7 +1,10 @@
 import { Card, Link } from "@heroui/react"
-import certifications from "../assets/data/certifications.json"
+import certificationsData from "../assets/data/certifications.json"
+import type { Certification } from "../types/index.ts"
 
 export default function Certifications() {
+  const certifications: Certification[] = certificationsData
+
     return (
         <section
             aria-labelledby="certifications-heading"

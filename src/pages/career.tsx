@@ -1,9 +1,13 @@
 import { Tabs } from "@heroui/react"
 import { IconBriefcase, IconSchool } from "@tabler/icons-react"
-import education from "../assets/data/education.json"
-import work from "../assets/data/work.json"
+import educationData from "../assets/data/education.json"
+import workData from "../assets/data/work.json"
+import type { EducationEntry, WorkEntry } from "../types/index.ts"
 
 export default function Career() {
+    const education: EducationEntry[] = educationData
+    const work: WorkEntry[] = workData
+  
     return (
         <section aria-labelledby="career-heading" className="py-24 px-6 " id="career">
             <div className="max-w-6xl mx-auto">
@@ -45,8 +49,8 @@ export default function Career() {
                                         {company.positions.length === 1 && (
                                             <>
                                                 <p className="text-lg font-bold text-slate-800 dark:text-slate-200 mb-2">
-                                                  {company.positions[0].position} -{" "}
-                                                  {company.positions[0].contract}
+                                                    {company.positions[0].position} -{" "}
+                                                    {company.positions[0].contract}
                                                 </p>
                                                 <p className="text-base text-slate-500 dark:text-slate-400 font-light leading-relaxed">
                                                     {company.positions[0].description}
