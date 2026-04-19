@@ -43,15 +43,15 @@ export default function Career() {
                                         <span className="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-1">
                                             {company.duration}
                                         </span>
-                                        <h4 className="text-2xl font-bold dark:text-white mb-4">
+                                        <h3 className="text-2xl font-bold dark:text-white mb-4">
                                             {company.name}
-                                        </h4>
+                                        </h3>
                                         {company.positions.length === 1 && (
                                             <>
-                                                <p className="text-lg font-bold text-slate-800 dark:text-slate-200 mb-2">
+                                                <h4 className="text-lg font-bold text-slate-800 dark:text-slate-200 mb-2">
                                                     {company.positions[0].position} -{" "}
                                                     {company.positions[0].contract}
-                                                </p>
+                                                </h4>
                                                 <p className="text-base text-slate-400 dark:text-slate-400 font-light leading-relaxed">
                                                     {company.positions[0].description}
                                                 </p>
@@ -65,10 +65,10 @@ export default function Career() {
                                                         key={
                                                             experience.position + experience.start
                                                         }>
-                                                        <p className="text-lg font-bold text-slate-800 dark:text-slate-200">
+                                                        <h4 className="text-lg font-bold text-slate-800 dark:text-slate-200">
                                                             {experience.position} -{" "}
                                                             {experience.contract}
-                                                        </p>
+                                                        </h4>
                                                         <p className="text-base text-slate-400 dark:text-slate-400 font-light mt-2 leading-relaxed">
                                                             {experience.description}
                                                         </p>
@@ -88,12 +88,12 @@ export default function Career() {
                                         <span className="text-xs font-bold text-primary uppercase tracking-widest block mb-1">
                                             {school.start} — {school.end}
                                         </span>
-                                        <h4 className="text-2xl font-bold dark:text-white mb-2">
+                                        <h3 className="text-2xl font-bold dark:text-white mb-2">
                                             {school.institution}
-                                        </h4>
-                                        <p className="text-lg font-bold text-slate-800 dark:text-slate-200 mb-2">
+                                        </h3>
+                                        <h4 className="text-lg font-bold text-slate-800 dark:text-slate-200 mb-2">
                                             {school.degree}
-                                        </p>
+                                        </h4>
                                         <p className="text-base text-slate-400 dark:text-slate-400 font-light leading-relaxed">
                                             {school.description}
                                         </p>
