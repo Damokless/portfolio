@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/core": "^9.7.2",
+    "@mantine/hooks": "^9.7.2",
     "@tailwindcss/vite": "^4.3.3",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
